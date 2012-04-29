@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BILL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BRAM.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CARD.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COIN.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBUG.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DEV.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DEX.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DISPLAY.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EEPROM.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLOBALS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KEYPAD.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MAIN.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCXGEN.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MDB.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MENUCODE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MENUDEF.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MIS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RSRC.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCI.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UTIL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VEND.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BILL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BRAM.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CARD.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COIN.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINES.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEV.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEX.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DISPLAY.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EEPROM.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EFDISP.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLOBALS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HDRS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KEYPAD.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MAIN.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MCXC.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MCXDBUG.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MCXDEF.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MDB.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MENU.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MIS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RSRC.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SCI.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STANDARD.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TIMERS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UTIL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VEND.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CRTSI.S">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DEFINE.S">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ISRS.S">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCX.S">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCXC.S">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCXCLOCK.S">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCXDATA.S">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCXDEF.S">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCXINIT.S">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCXNULL.S">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MISC.S">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="VECTOR.S">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="VERSION.S">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="beclean.BAT">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BUILD.BAT">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="EM.BAT">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="EMUL.BAT">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MCX.H11">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MCX.MAK">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MCX.CF">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MCX.MAP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MCX.LNK">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MCXGEN.PRJ">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MCXGEN.EXE">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

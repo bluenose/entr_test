@@ -1,0 +1,2557 @@
+
+
+
+			============================
+			|                          |
+			|      MAP INFORMATION     |
+			|                          |
+			============================
+
+
+
+			============================
+			|                          |
+			|         SEGMENTS         |
+			|                          |
+			============================
+
+
+
+			Segment No. 1	Type: text
+			=============
+
+        start: 0x4000         size: 0x69da         finish: 0xa9da
+
+			Segment No. 2	Type: text
+			=============
+
+        start: 0xf000         size: 0x05f8         finish: 0xf5f8
+
+			Segment No. 3	Type: text
+			=============
+
+        start: 0xe000         size: 0x000b         finish: 0xe00b
+
+			Segment No. 4	Type: text
+			=============
+
+        start: 0xffd6         size: 0x002a         finish: 0x10000
+
+			Segment No. 5	Type: EEPROM
+			=============
+
+        start: 0xb600         size: 0x000d         finish: 0xb60d
+
+			Segment No. 6	Type: BATTERY
+			=============
+
+        start: 0x0040         size: 0x0222         finish: 0x0262
+
+			Segment No. 7	Type: data
+			=============
+
+        start: 0x0262         size: 0x0596         finish: 0x07f8
+
+			Segment No. 8	Type: bss
+			=============
+
+        start: 0x2000         size: 0x01e6         finish: 0x21e6
+
+			Segment No. 9	Type: zpage
+			=============
+
+        start: 0x0000         size: 0x0000         finish: 0x0000
+
+
+
+
+			============================
+			|                          |
+			|         MODULES          |
+			|                          |
+			============================
+
+
+
+MODULE: version.o
+		TEXT  at 0x4000 size: 0x0002 
+		DATA  at 0xb600 size: 0x0000 
+		BSS   at 0x2000 size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: eeprom.o
+		TEXT  at 0x4002 size: 0x0055 
+		DATA  at 0xb600 size: 0x000d 
+		BSS   at 0x2000 size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: bram.o
+		TEXT  at 0x4057 size: 0x0000 
+		DATA  at 0x0040 size: 0x0222 
+		BSS   at 0x2000 size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: globals.o
+		TEXT  at 0x4057 size: 0x0000 
+		DATA  at 0x0262 size: 0x00bc 
+		BSS   at 0x2000 size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: crtsi.o
+		TEXT  at 0x4057 size: 0x00b1 
+		DATA  at 0x031e size: 0x0002 
+		BSS   at 0x2000 size: 0x0007 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: main.o
+		TEXT  at 0x4108 size: 0x0582 
+		DATA  at 0x0320 size: 0x0000 
+		BSS   at 0x2007 size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: mis.o
+		TEXT  at 0x468a size: 0x02a4 
+		DATA  at 0x0320 size: 0x0000 
+		BSS   at 0x2007 size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: keypad.o
+		TEXT  at 0x492e size: 0x027e 
+		DATA  at 0x0320 size: 0x0000 
+		BSS   at 0x2007 size: 0x0060 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: display.o
+		TEXT  at 0x4bac size: 0x053b 
+		DATA  at 0x0320 size: 0x0000 
+		BSS   at 0x2067 size: 0x0006 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: sci.o
+		TEXT  at 0x50e7 size: 0x0254 
+		DATA  at 0x0320 size: 0x0000 
+		BSS   at 0x206d size: 0x0001 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: mdb.o
+		TEXT  at 0x533b size: 0x0234 
+		DATA  at 0x0320 size: 0x0000 
+		BSS   at 0x206e size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: coin.o
+		TEXT  at 0x556f size: 0x0e2b 
+		DATA  at 0x0320 size: 0x000b 
+		BSS   at 0x206e size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: bill.o
+		TEXT  at 0x639a size: 0x0436 
+		DATA  at 0x032b size: 0x0003 
+		BSS   at 0x206e size: 0x0004 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: dex.o
+		TEXT  at 0x67d0 size: 0x0f78 
+		DATA  at 0x032e size: 0x0000 
+		BSS   at 0x2072 size: 0x001e 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: rsrc.o
+		TEXT  at 0x7748 size: 0x0042 
+		DATA  at 0x032e size: 0x0000 
+		BSS   at 0x2090 size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: util.o
+		TEXT  at 0x778a size: 0x062a 
+		DATA  at 0x032e size: 0x0000 
+		BSS   at 0x2090 size: 0x000a 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: isrs.o
+		TEXT  at 0x7db4 size: 0x00b8 
+		DATA  at 0x032e size: 0x0000 
+		BSS   at 0x209a size: 0x0004 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: dbug.o
+		TEXT  at 0x7e6c size: 0x0131 
+		DATA  at 0x032e size: 0x0002 
+		BSS   at 0x209e size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: dev.o
+		TEXT  at 0x7f9d size: 0x053c 
+		DATA  at 0x0330 size: 0x0000 
+		BSS   at 0x209e size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: vend.o
+		TEXT  at 0x84d9 size: 0x08e6 
+		DATA  at 0x0330 size: 0x0000 
+		BSS   at 0x209e size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: menudef.o
+		TEXT  at 0x8dbf size: 0x02d0 
+		DATA  at 0x0330 size: 0x0000 
+		BSS   at 0x209e size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: menucode.o
+		TEXT  at 0x908f size: 0x0c79 
+		DATA  at 0x0330 size: 0x0008 
+		BSS   at 0x209e size: 0x000c 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: eepcpy.o(c:\c\lib\libi.h11)
+		TEXT  at 0x9d08 size: 0x0025 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: printf.o(c:\c\lib\libi.h11)
+		TEXT  at 0x9d2d size: 0x001b 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: sprnt.o(c:\c\lib\libi.h11)
+		TEXT  at 0x9d48 size: 0x0024 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: strcat.o(c:\c\lib\libi.h11)
+		TEXT  at 0x9d6c size: 0x001d 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: strcpy.o(c:\c\lib\libi.h11)
+		TEXT  at 0x9d89 size: 0x0017 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: cprint.o(c:\c\lib\libi.h11)
+		TEXT  at 0x9da0 size: 0x05f1 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: itob.o(c:\c\lib\libi.h11)
+		TEXT  at 0xa391 size: 0x019c 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: putchr.o(c:\c\lib\libi.h11)
+		TEXT  at 0xa52d size: 0x0021 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: strchr.o(c:\c\lib\libi.h11)
+		TEXT  at 0xa54e size: 0x0014 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: strlen.o(c:\c\lib\libi.h11)
+		TEXT  at 0xa562 size: 0x0010 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: toup.o(c:\c\lib\libi.h11)
+		TEXT  at 0xa572 size: 0x000c 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: idiv.o(c:\c\lib\libi.h11)
+		TEXT  at 0xa57e size: 0x0012 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: ildiv.o(c:\c\lib\libi.h11)
+		TEXT  at 0xa590 size: 0x0033 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: cent.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa5c3 size: 0x0013 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: ckenl.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa5d6 size: 0x0019 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: ckent.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa5ef size: 0x001c 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: idiv.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa60b size: 0x0038 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: ilsh.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa643 size: 0x001a 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: imul.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa65d size: 0x001d 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: imul10.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa67a size: 0x000c 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: imulb.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa686 size: 0x0019 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: itol.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa69f size: 0x000c 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: jctab.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa6ab size: 0x000c 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: ladd.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa6b7 size: 0x0012 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: land.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa6c9 size: 0x0015 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: lcmp.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa6de size: 0x001a 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: lgadd.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa6f8 size: 0x0012 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: lgor.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa70a size: 0x0015 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: llsh.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa71f size: 0x0029 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: lmul.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa748 size: 0x007c 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: lneg.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa7c4 size: 0x0012 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: lrzmp.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa7d6 size: 0x000b 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: msp.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa7e1 size: 0x0015 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: ulcmp.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa7f6 size: 0x000d 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: ursh.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa803 size: 0x001a 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: eeprom.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa81d size: 0x0065 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: ldiv.o(c:\c\lib\libm.h11)
+		TEXT  at 0xa882 size: 0x0158 
+		DATA  at 0x0338 size: 0x0000 
+		BSS   at 0x20aa size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: mcxdata.o
+		TEXT  at 0xf000 size: 0x005a 
+		DATA  at 0x0338 size: 0x04c0 
+		BSS   at 0x20aa size: 0x013c 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: mcxinit.o
+		TEXT  at 0xf05a size: 0x00a3 
+		DATA  at 0x07f8 size: 0x0000 
+		BSS   at 0x21e6 size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: mcx.o
+		TEXT  at 0xf0fd size: 0x03f3 
+		DATA  at 0x07f8 size: 0x0000 
+		BSS   at 0x21e6 size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: mcxclock.o
+		TEXT  at 0xf4f0 size: 0x005e 
+		DATA  at 0x07f8 size: 0x0000 
+		BSS   at 0x21e6 size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: mcxc.o
+		TEXT  at 0xf54e size: 0x00aa 
+		DATA  at 0x07f8 size: 0x0000 
+		BSS   at 0x21e6 size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: mcxnull.o
+		TEXT  at 0xe000 size: 0x000b 
+		DATA  at 0x07f8 size: 0x0000 
+		BSS   at 0x21e6 size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+MODULE: vector.o
+		TEXT  at 0xffd6 size: 0x002a 
+		DATA  at 0x07f8 size: 0x0000 
+		BSS   at 0x21e6 size: 0x0000 
+		ZPAGE at 0x0000 size: 0x0000 
+
+
+
+
+			============================
+			|                          |
+			|          SYMBOLS         |
+			|                          |
+			============================
+
+
+
+IX LOCAL    at 0x0003                 
+	defined in:    isrs.o
+IX LOCAL    at 0x0003                 
+	defined in:    mcxdata.o
+IX LOCAL    at 0x0003                 
+	defined in:    mcxinit.o
+IX LOCAL    at 0x0003                 
+	defined in:    mcx.o
+IX LOCAL    at 0x0003                 
+	defined in:    mcxclock.o
+IX LOCAL    at 0x0003                 
+	defined in:    mcxnull.o
+IY LOCAL    at 0x0005                 
+	defined in:    isrs.o
+IY LOCAL    at 0x0005                 
+	defined in:    mcxdata.o
+IY LOCAL    at 0x0005                 
+	defined in:    mcxinit.o
+IY LOCAL    at 0x0005                 
+	defined in:    mcx.o
+IY LOCAL    at 0x0005                 
+	defined in:    mcxclock.o
+IY LOCAL    at 0x0005                 
+	defined in:    mcxnull.o
+PC LOCAL    at 0x0007                 
+	defined in:    isrs.o
+PC LOCAL    at 0x0007                 
+	defined in:    mcxdata.o
+PC LOCAL    at 0x0007                 
+	defined in:    mcxinit.o
+PC LOCAL    at 0x0007                 
+	defined in:    mcx.o
+PC LOCAL    at 0x0007                 
+	defined in:    mcxclock.o
+PC LOCAL    at 0x0007                 
+	defined in:    mcxnull.o
+0$7 LOCAL    at 0x7dca in text section  of Segment No. 1
+	defined in:    isrs.o
+CCR LOCAL    at 0x0000                 
+	defined in:    isrs.o
+CCR LOCAL    at 0x0000                 
+	defined in:    mcxdata.o
+CCR LOCAL    at 0x0000                 
+	defined in:    mcxinit.o
+CCR LOCAL    at 0x0000                 
+	defined in:    mcx.o
+CCR LOCAL    at 0x0000                 
+	defined in:    mcxclock.o
+CCR LOCAL    at 0x0000                 
+	defined in:    mcxnull.o
+IXH LOCAL    at 0x0003                 
+	defined in:    isrs.o
+IXH LOCAL    at 0x0003                 
+	defined in:    mcxdata.o
+IXH LOCAL    at 0x0003                 
+	defined in:    mcxinit.o
+IXH LOCAL    at 0x0003                 
+	defined in:    mcx.o
+IXH LOCAL    at 0x0003                 
+	defined in:    mcxclock.o
+IXH LOCAL    at 0x0003                 
+	defined in:    mcxnull.o
+IXL LOCAL    at 0x0004                 
+	defined in:    isrs.o
+IXL LOCAL    at 0x0004                 
+	defined in:    mcxdata.o
+IXL LOCAL    at 0x0004                 
+	defined in:    mcxinit.o
+IXL LOCAL    at 0x0004                 
+	defined in:    mcx.o
+IXL LOCAL    at 0x0004                 
+	defined in:    mcxclock.o
+IXL LOCAL    at 0x0004                 
+	defined in:    mcxnull.o
+PIX LOCAL    at 0x0001                 
+	defined in:    isrs.o
+PIX LOCAL    at 0x0001                 
+	defined in:    mcxdata.o
+PIX LOCAL    at 0x0001                 
+	defined in:    mcxinit.o
+PIX LOCAL    at 0x0001                 
+	defined in:    mcx.o
+PIX LOCAL    at 0x0001                 
+	defined in:    mcxclock.o
+PIX LOCAL    at 0x0001                 
+	defined in:    mcxnull.o
+RTR LOCAL    at 0x0000                 
+	defined in:    isrs.o
+RTR LOCAL    at 0x0000                 
+	defined in:    mcxdata.o
+RTR LOCAL    at 0x0000                 
+	defined in:    mcxinit.o
+RTR LOCAL    at 0x0000                 
+	defined in:    mcx.o
+RTR LOCAL    at 0x0000                 
+	defined in:    mcxclock.o
+RTR LOCAL    at 0x0000                 
+	defined in:    mcxnull.o
+dq2 LOCAL    at 0xf2d6 in text section  of Segment No. 2
+	defined in:    mcx.o
+maj LOCAL    at 0x4084 in text section  of Segment No. 1
+	defined in:    crtsi.o
+met LOCAL    at 0x7e42 in text section  of Segment No. 1
+	defined in:    isrs.o
+nq2 LOCAL    at 0xf364 in text section  of Segment No. 2
+	defined in:    mcx.o
+qlp LOCAL    at 0xf093 in text section  of Segment No. 2
+	defined in:    mcxinit.o
+0$11 LOCAL    at 0x7e28 in text section  of Segment No. 1
+	defined in:    isrs.o
+99$9 LOCAL    at 0x7def in text section  of Segment No. 1
+	defined in:    isrs.o
+ACCA LOCAL    at 0x0002                 
+	defined in:    isrs.o
+ACCA LOCAL    at 0x0002                 
+	defined in:    mcxdata.o
+ACCA LOCAL    at 0x0002                 
+	defined in:    mcxinit.o
+ACCA LOCAL    at 0x0002                 
+	defined in:    mcx.o
+ACCA LOCAL    at 0x0002                 
+	defined in:    mcxclock.o
+ACCA LOCAL    at 0x0002                 
+	defined in:    mcxnull.o
+ACCB LOCAL    at 0x0001                 
+	defined in:    isrs.o
+ACCB LOCAL    at 0x0001                 
+	defined in:    mcxdata.o
+ACCB LOCAL    at 0x0001                 
+	defined in:    mcxinit.o
+ACCB LOCAL    at 0x0001                 
+	defined in:    mcx.o
+ACCB LOCAL    at 0x0001                 
+	defined in:    mcxclock.o
+ACCB LOCAL    at 0x0001                 
+	defined in:    mcxnull.o
+FREE PUBLIC   at 0x217b in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+IC1F LOCAL    at 0x0004                 
+	defined in:    isrs.o
+IC2F LOCAL    at 0x0002                 
+	defined in:    isrs.o
+IC3F LOCAL    at 0x0001                 
+	defined in:    isrs.o
+INIT LOCAL    at 0x103d                 
+	defined in:    crtsi.o
+OC1F LOCAL    at 0x0080                 
+	defined in:    isrs.o
+RTIF LOCAL    at 0x0040                 
+	defined in:    isrs.o
+RTIF LOCAL    at 0x0040                 
+	defined in:    mcxdata.o
+RTIF LOCAL    at 0x0040                 
+	defined in:    mcxinit.o
+RTIF LOCAL    at 0x0040                 
+	defined in:    mcx.o
+RTIF LOCAL    at 0x0040                 
+	defined in:    mcxclock.o
+RTIF LOCAL    at 0x0040                 
+	defined in:    mcxnull.o
+RTII LOCAL    at 0x0040                 
+	defined in:    isrs.o
+RTII LOCAL    at 0x0040                 
+	defined in:    mcxdata.o
+RTII LOCAL    at 0x0040                 
+	defined in:    mcxinit.o
+RTII LOCAL    at 0x0040                 
+	defined in:    mcx.o
+RTII LOCAL    at 0x0040                 
+	defined in:    mcxclock.o
+RTII LOCAL    at 0x0040                 
+	defined in:    mcxnull.o
+TCNT LOCAL    at 0x100f                 
+	defined in:    isrs.o
+TOC1 LOCAL    at 0x1016                 
+	defined in:    isrs.o
+TOCK LOCAL    at 0x0001                 
+	defined in:    isrs.o
+TOCK LOCAL    at 0x0001                 
+	defined in:    mcxdata.o
+TOCK LOCAL    at 0x0001                 
+	defined in:    mcxinit.o
+TOCK LOCAL    at 0x0001                 
+	defined in:    mcx.o
+TOCK LOCAL    at 0x0001                 
+	defined in:    mcxclock.o
+TOCK LOCAL    at 0x0001                 
+	defined in:    mcxnull.o
+_RUN LOCAL    at 0x0000                 
+	defined in:    isrs.o
+_RUN LOCAL    at 0x0000                 
+	defined in:    mcxdata.o
+_RUN LOCAL    at 0x0000                 
+	defined in:    mcxinit.o
+_RUN LOCAL    at 0x0000                 
+	defined in:    mcx.o
+_RUN LOCAL    at 0x0000                 
+	defined in:    mcxclock.o
+_RUN LOCAL    at 0x0000                 
+	defined in:    mcxnull.o
+_dex PUBLIC   at 0x028b in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: dex.o sci.o
+_mis PUBLIC   at 0x0082 in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: menucode.o menudef.o vend.o
+	              dex.o bill.o coin.o
+	              mis.o
+_rti PUBLIC   at 0x7db7 in text section  of Segment No. 1
+	defined in:    isrs.o
+	referenced in: vector.o
+_sci PUBLIC   at 0x02bd in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: dex.o bill.o coin.o
+	              mdb.o sci.o
+copy LOCAL    at 0x40c8 in text section  of Segment No. 1
+	defined in:    crtsi.o
+dlay LOCAL    at 0xf471 in text section  of Segment No. 2
+	defined in:    mcx.o
+full LOCAL    at 0xf37b in text section  of Segment No. 2
+	defined in:    mcx.o
+init LOCAL    at 0x40c7 in text section  of Segment No. 1
+	defined in:    crtsi.o
+loop LOCAL    at 0x40f2 in text section  of Segment No. 1
+	defined in:    crtsi.o
+next PUBLIC   at 0xf101 in text section  of Segment No. 2
+	defined in:    mcx.o
+notw LOCAL    at 0xf210 in text section  of Segment No. 2
+	defined in:    mcx.o
+prec LOCAL    at 0x2002 in bss  section  of Segment No. 8
+	defined in:    crtsi.o
+smlp LOCAL    at 0xf0a7 in text section  of Segment No. 2
+	defined in:    mcxinit.o
+temp PUBLIC   at 0x2186 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+tmlp LOCAL    at 0xf07c in text section  of Segment No. 2
+	defined in:    mcxinit.o
+updt LOCAL    at 0xf43a in text section  of Segment No. 2
+	defined in:    mcx.o
+wait LOCAL    at 0x406c in text section  of Segment No. 1
+	defined in:    crtsi.o
+wtlp LOCAL    at 0x7e61 in text section  of Segment No. 1
+	defined in:    isrs.o
+zbcl LOCAL    at 0x40ef in text section  of Segment No. 1
+	defined in:    crtsi.o
+zbss LOCAL    at 0x40e6 in text section  of Segment No. 1
+	defined in:    crtsi.o
+.pend LOCAL    at 0xf1e1 in text section  of Segment No. 2
+	defined in:    mcx.o
+.recv LOCAL    at 0xf25a in text section  of Segment No. 2
+	defined in:    mcx.o
+.send LOCAL    at 0xf1f6 in text section  of Segment No. 2
+	defined in:    mcx.o
+.wait LOCAL    at 0xf1bf in text section  of Segment No. 2
+	defined in:    mcx.o
+.xeqt LOCAL    at 0xf3b9 in text section  of Segment No. 2
+	defined in:    mcx.o
+99$10 LOCAL    at 0x7e02 in text section  of Segment No. 1
+	defined in:    isrs.o
+99$13 LOCAL    at 0x7e54 in text section  of Segment No. 1
+	defined in:    isrs.o
+ACTSP LOCAL    at 0x0001                 
+	defined in:    isrs.o
+ACTSP LOCAL    at 0x0001                 
+	defined in:    mcxdata.o
+ACTSP LOCAL    at 0x0001                 
+	defined in:    mcxinit.o
+ACTSP LOCAL    at 0x0001                 
+	defined in:    mcx.o
+ACTSP LOCAL    at 0x0001                 
+	defined in:    mcxclock.o
+ACTSP LOCAL    at 0x0001                 
+	defined in:    mcxnull.o
+BPROT LOCAL    at 0x1035                 
+	defined in:    crtsi.o
+CLINK LOCAL    at 0x0000                 
+	defined in:    isrs.o
+CLINK LOCAL    at 0x0000                 
+	defined in:    mcxdata.o
+CLINK LOCAL    at 0x0000                 
+	defined in:    mcxinit.o
+CLINK LOCAL    at 0x0000                 
+	defined in:    mcx.o
+CLINK LOCAL    at 0x0000                 
+	defined in:    mcxclock.o
+CLINK LOCAL    at 0x0000                 
+	defined in:    mcxnull.o
+CSEMA LOCAL    at 0x0007                 
+	defined in:    isrs.o
+CSEMA LOCAL    at 0x0007                 
+	defined in:    mcxdata.o
+CSEMA LOCAL    at 0x0007                 
+	defined in:    mcxinit.o
+CSEMA LOCAL    at 0x0007                 
+	defined in:    mcx.o
+CSEMA LOCAL    at 0x0007                 
+	defined in:    mcxclock.o
+CSEMA LOCAL    at 0x0007                 
+	defined in:    mcxnull.o
+CTASK LOCAL    at 0x0006                 
+	defined in:    isrs.o
+CTASK LOCAL    at 0x0006                 
+	defined in:    mcxdata.o
+CTASK LOCAL    at 0x0006                 
+	defined in:    mcxinit.o
+CTASK LOCAL    at 0x0006                 
+	defined in:    mcx.o
+CTASK LOCAL    at 0x0006                 
+	defined in:    mcxclock.o
+CTASK LOCAL    at 0x0006                 
+	defined in:    mcxnull.o
+DEPTH LOCAL    at 0x0001                 
+	defined in:    isrs.o
+DEPTH LOCAL    at 0x0001                 
+	defined in:    mcxdata.o
+DEPTH LOCAL    at 0x0001                 
+	defined in:    mcxinit.o
+DEPTH LOCAL    at 0x0001                 
+	defined in:    mcx.o
+DEPTH LOCAL    at 0x0001                 
+	defined in:    mcxclock.o
+DEPTH LOCAL    at 0x0001                 
+	defined in:    mcxnull.o
+MAJOR LOCAL    at 0x0002                 
+	defined in:    crtsi.o
+MBODY LOCAL    at 0x0004                 
+	defined in:    isrs.o
+MBODY LOCAL    at 0x0004                 
+	defined in:    mcxdata.o
+MBODY LOCAL    at 0x0004                 
+	defined in:    mcxinit.o
+MBODY LOCAL    at 0x0004                 
+	defined in:    mcx.o
+MBODY LOCAL    at 0x0004                 
+	defined in:    mcxclock.o
+MBODY LOCAL    at 0x0004                 
+	defined in:    mcxnull.o
+MINOR LOCAL    at 0x0001                 
+	defined in:    crtsi.o
+MLINK LOCAL    at 0x0000                 
+	defined in:    isrs.o
+MLINK LOCAL    at 0x0000                 
+	defined in:    mcxdata.o
+MLINK LOCAL    at 0x0000                 
+	defined in:    mcxinit.o
+MLINK LOCAL    at 0x0000                 
+	defined in:    mcx.o
+MLINK LOCAL    at 0x0000                 
+	defined in:    mcxclock.o
+MLINK LOCAL    at 0x0000                 
+	defined in:    mcxnull.o
+MSEMA LOCAL    at 0x0003                 
+	defined in:    isrs.o
+MSEMA LOCAL    at 0x0003                 
+	defined in:    mcxdata.o
+MSEMA LOCAL    at 0x0003                 
+	defined in:    mcxinit.o
+MSEMA LOCAL    at 0x0003                 
+	defined in:    mcx.o
+MSEMA LOCAL    at 0x0003                 
+	defined in:    mcxclock.o
+MSEMA LOCAL    at 0x0003                 
+	defined in:    mcxnull.o
+MTASK LOCAL    at 0x0002                 
+	defined in:    isrs.o
+MTASK LOCAL    at 0x0002                 
+	defined in:    mcxdata.o
+MTASK LOCAL    at 0x0002                 
+	defined in:    mcxinit.o
+MTASK LOCAL    at 0x0002                 
+	defined in:    mcx.o
+MTASK LOCAL    at 0x0002                 
+	defined in:    mcxclock.o
+MTASK LOCAL    at 0x0002                 
+	defined in:    mcxnull.o
+PACTL LOCAL    at 0x1026                 
+	defined in:    crtsi.o
+PACTL LOCAL    at 0x1026                 
+	defined in:    isrs.o
+PACTL LOCAL    at 0x1026                 
+	defined in:    mcxdata.o
+PACTL LOCAL    at 0x1026                 
+	defined in:    mcxinit.o
+PACTL LOCAL    at 0x1026                 
+	defined in:    mcx.o
+PACTL LOCAL    at 0x1026                 
+	defined in:    mcxclock.o
+PACTL LOCAL    at 0x1026                 
+	defined in:    mcxnull.o
+PORTA LOCAL    at 0x1000                 
+	defined in:    crtsi.o
+PORTA LOCAL    at 0x1000                 
+	defined in:    isrs.o
+PORTA LOCAL    at 0x1000                 
+	defined in:    mcxdata.o
+PORTA LOCAL    at 0x1000                 
+	defined in:    mcxinit.o
+PORTA LOCAL    at 0x1000                 
+	defined in:    mcx.o
+PORTA LOCAL    at 0x1000                 
+	defined in:    mcxclock.o
+PORTA LOCAL    at 0x1000                 
+	defined in:    mcxnull.o
+PORTE LOCAL    at 0x100a                 
+	defined in:    isrs.o
+Q1HDR LOCAL    at 0x210f in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+QADDR LOCAL    at 0x0004                 
+	defined in:    isrs.o
+QADDR LOCAL    at 0x0004                 
+	defined in:    mcxdata.o
+QADDR LOCAL    at 0x0004                 
+	defined in:    mcxinit.o
+QADDR PUBLIC   at 0x0004                 
+	defined in:    mcx.o
+QADDR LOCAL    at 0x0004                 
+	defined in:    mcxclock.o
+QADDR LOCAL    at 0x0004                 
+	defined in:    mcxnull.o
+QHADR LOCAL    at 0x0002                 
+	defined in:    isrs.o
+QHADR LOCAL    at 0x0002                 
+	defined in:    mcxdata.o
+QHADR LOCAL    at 0x0002                 
+	defined in:    mcxinit.o
+QHADR PUBLIC   at 0x0002                 
+	defined in:    mcx.o
+QHADR LOCAL    at 0x0002                 
+	defined in:    mcxclock.o
+QHADR LOCAL    at 0x0002                 
+	defined in:    mcxnull.o
+QSEMA LOCAL    at 0x0002                 
+	defined in:    isrs.o
+QSEMA LOCAL    at 0x0002                 
+	defined in:    mcxdata.o
+QSEMA LOCAL    at 0x0002                 
+	defined in:    mcxinit.o
+QSEMA LOCAL    at 0x0002                 
+	defined in:    mcx.o
+QSEMA LOCAL    at 0x0002                 
+	defined in:    mcxclock.o
+QSEMA LOCAL    at 0x0002                 
+	defined in:    mcxnull.o
+RSTSP LOCAL    at 0x0003                 
+	defined in:    isrs.o
+RSTSP LOCAL    at 0x0003                 
+	defined in:    mcxdata.o
+RSTSP LOCAL    at 0x0003                 
+	defined in:    mcxinit.o
+RSTSP PUBLIC   at 0x0003                 
+	defined in:    mcx.o
+RSTSP LOCAL    at 0x0003                 
+	defined in:    mcxclock.o
+RSTSP LOCAL    at 0x0003                 
+	defined in:    mcxnull.o
+STAK1 LOCAL    at 0x210f in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+STAK2 LOCAL    at 0x0398 in data section  of Segment No. 7
+	defined in:    mcxdata.o
+STAK3 LOCAL    at 0x03e0 in data section  of Segment No. 7
+	defined in:    mcxdata.o
+STAK4 LOCAL    at 0x0444 in data section  of Segment No. 7
+	defined in:    mcxdata.o
+STAK5 LOCAL    at 0x048c in data section  of Segment No. 7
+	defined in:    mcxdata.o
+STAK6 LOCAL    at 0x056c in data section  of Segment No. 7
+	defined in:    mcxdata.o
+STAK7 LOCAL    at 0x05d0 in data section  of Segment No. 7
+	defined in:    mcxdata.o
+STAK8 LOCAL    at 0x0658 in data section  of Segment No. 7
+	defined in:    mcxdata.o
+STAK9 LOCAL    at 0x06b0 in data section  of Segment No. 7
+	defined in:    mcxdata.o
+STATE LOCAL    at 0x0000                 
+	defined in:    isrs.o
+STATE LOCAL    at 0x0000                 
+	defined in:    mcxdata.o
+STATE LOCAL    at 0x0000                 
+	defined in:    mcxinit.o
+STATE LOCAL    at 0x0000                 
+	defined in:    mcx.o
+STATE LOCAL    at 0x0000                 
+	defined in:    mcxclock.o
+STATE LOCAL    at 0x0000                 
+	defined in:    mcxnull.o
+TASK1 LOCAL    at 0x21a2 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+TASK2 LOCAL    at 0x21a7 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+TASK3 LOCAL    at 0x21ac in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+TASK4 LOCAL    at 0x21b1 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+TASK5 LOCAL    at 0x21b6 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+TASK6 LOCAL    at 0x21bb in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+TASK7 LOCAL    at 0x21c0 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+TASK8 LOCAL    at 0x21c5 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+TASK9 LOCAL    at 0x21ca in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+TFLG1 LOCAL    at 0x1023                 
+	defined in:    isrs.o
+TFLG2 LOCAL    at 0x1025                 
+	defined in:    isrs.o
+TFLG2 LOCAL    at 0x1025                 
+	defined in:    mcxdata.o
+TFLG2 LOCAL    at 0x1025                 
+	defined in:    mcxinit.o
+TFLG2 LOCAL    at 0x1025                 
+	defined in:    mcx.o
+TFLG2 LOCAL    at 0x1025                 
+	defined in:    mcxclock.o
+TFLG2 LOCAL    at 0x1025                 
+	defined in:    mcxnull.o
+TMSK2 LOCAL    at 0x1024                 
+	defined in:    isrs.o
+TMSK2 LOCAL    at 0x1024                 
+	defined in:    mcxdata.o
+TMSK2 LOCAL    at 0x1024                 
+	defined in:    mcxinit.o
+TMSK2 LOCAL    at 0x1024                 
+	defined in:    mcx.o
+TMSK2 LOCAL    at 0x1024                 
+	defined in:    mcxclock.o
+TMSK2 LOCAL    at 0x1024                 
+	defined in:    mcxnull.o
+WIDTH LOCAL    at 0x0000                 
+	defined in:    isrs.o
+WIDTH LOCAL    at 0x0000                 
+	defined in:    mcxdata.o
+WIDTH LOCAL    at 0x0000                 
+	defined in:    mcxinit.o
+WIDTH PUBLIC   at 0x0000                 
+	defined in:    mcx.o
+WIDTH LOCAL    at 0x0000                 
+	defined in:    mcxclock.o
+WIDTH LOCAL    at 0x0000                 
+	defined in:    mcxnull.o
+_IDLE LOCAL    at 0x0001                 
+	defined in:    isrs.o
+_IDLE LOCAL    at 0x0001                 
+	defined in:    mcxdata.o
+_IDLE LOCAL    at 0x0001                 
+	defined in:    mcxinit.o
+_IDLE LOCAL    at 0x0001                 
+	defined in:    mcx.o
+_IDLE LOCAL    at 0x0001                 
+	defined in:    mcxclock.o
+_IDLE LOCAL    at 0x0001                 
+	defined in:    mcxnull.o
+_PEND LOCAL    at 0x0001                 
+	defined in:    isrs.o
+_PEND LOCAL    at 0x0001                 
+	defined in:    mcxdata.o
+_PEND LOCAL    at 0x0001                 
+	defined in:    mcxinit.o
+_PEND LOCAL    at 0x0001                 
+	defined in:    mcx.o
+_PEND LOCAL    at 0x0001                 
+	defined in:    mcxclock.o
+_PEND LOCAL    at 0x0001                 
+	defined in:    mcxnull.o
+_WAIT LOCAL    at 0x0040                 
+	defined in:    isrs.o
+_WAIT LOCAL    at 0x0040                 
+	defined in:    mcxdata.o
+_WAIT LOCAL    at 0x0040                 
+	defined in:    mcxinit.o
+_WAIT LOCAL    at 0x0040                 
+	defined in:    mcx.o
+_WAIT LOCAL    at 0x0040                 
+	defined in:    mcxclock.o
+_WAIT LOCAL    at 0x0040                 
+	defined in:    mcxnull.o
+_beep PUBLIC   at 0x0289 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: keypad.o
+_bill PUBLIC   at 0x0299 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: menucode.o vend.o util.o
+	              bill.o coin.o display.o
+	              main.o
+_coin PUBLIC   at 0x01f2 in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: menucode.o dev.o util.o
+	              bill.o coin.o display.o
+	              main.o
+clrnv LOCAL    at 0x408c in text section  of Segment No. 1
+	defined in:    crtsi.o
+dqend LOCAL    at 0xf2f0 in text section  of Segment No. 2
+	defined in:    mcx.o
+dqgt2 LOCAL    at 0xf2e2 in text section  of Segment No. 2
+	defined in:    mcx.o
+force LOCAL    at 0xf1d2 in text section  of Segment No. 2
+	defined in:    mcx.o
+gotsk LOCAL    at 0xf487 in text section  of Segment No. 2
+	defined in:    mcx.o
+hipri PUBLIC   at 0x2182 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+lastp LOCAL    at 0x2004 in bss  section  of Segment No. 8
+	defined in:    crtsi.o
+mcxgo PUBLIC   at 0xf06a in text section  of Segment No. 2
+	defined in:    mcxinit.o
+	referenced in: crtsi.o
+meter LOCAL    at 0x7e32 in text section  of Segment No. 1
+	defined in:    isrs.o
+notmt PUBLIC   at 0x218a in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+nqend LOCAL    at 0xf373 in text section  of Segment No. 2
+	defined in:    mcx.o
+nsrtm LOCAL    at 0xf430 in text section  of Segment No. 2
+	defined in:    mcx.o
+ploop LOCAL    at 0x40a0 in text section  of Segment No. 1
+	defined in:    crtsi.o
+ploop LOCAL    at 0xf4a1 in text section  of Segment No. 2
+	defined in:    mcx.o
+pulse LOCAL    at 0x209c in bss  section  of Segment No. 8
+	defined in:    isrs.o
+rcvgo LOCAL    at 0xf29d in text section  of Segment No. 2
+	defined in:    mcx.o
+tcblp LOCAL    at 0xf0b6 in text section  of Segment No. 2
+	defined in:    mcxinit.o
+tloop LOCAL    at 0xf41f in text section  of Segment No. 2
+	defined in:    mcx.o
+wait2 LOCAL    at 0xf1c7 in text section  of Segment No. 2
+	defined in:    mcx.o
+waitt LOCAL    at 0xf1d8 in text section  of Segment No. 2
+	defined in:    mcx.o
+.delay LOCAL    at 0xf3df in text section  of Segment No. 2
+	defined in:    mcx.o
+.deque LOCAL    at 0xf2ae in text section  of Segment No. 2
+	defined in:    mcx.o
+.enque LOCAL    at 0xf334 in text section  of Segment No. 2
+	defined in:    mcx.o
+.pend. LOCAL    at 0x0003                 
+	defined in:    isrs.o
+.pend. LOCAL    at 0x0003                 
+	defined in:    mcxdata.o
+.pend. LOCAL    at 0x0003                 
+	defined in:    mcxinit.o
+.pend. LOCAL    at 0x0003                 
+	defined in:    mcx.o
+.pend. LOCAL    at 0x0003                 
+	defined in:    mcxclock.o
+.pend. LOCAL    at 0x0003                 
+	defined in:    mcxc.o
+.pend. LOCAL    at 0x0003                 
+	defined in:    mcxnull.o
+.purge LOCAL    at 0xf481 in text section  of Segment No. 2
+	defined in:    mcx.o
+.send. LOCAL    at 0x0004                 
+	defined in:    isrs.o
+.send. LOCAL    at 0x0004                 
+	defined in:    mcxdata.o
+.send. LOCAL    at 0x0004                 
+	defined in:    mcxinit.o
+.send. LOCAL    at 0x0004                 
+	defined in:    mcx.o
+.send. LOCAL    at 0x0004                 
+	defined in:    mcxclock.o
+.send. LOCAL    at 0x0004                 
+	defined in:    mcxc.o
+.send. LOCAL    at 0x0004                 
+	defined in:    mcxnull.o
+.sendw LOCAL    at 0xf1f5 in text section  of Segment No. 2
+	defined in:    mcx.o
+.timer LOCAL    at 0xf3e1 in text section  of Segment No. 2
+	defined in:    mcx.o
+.wait. LOCAL    at 0x0001                 
+	defined in:    isrs.o
+.wait. LOCAL    at 0x0001                 
+	defined in:    mcxdata.o
+.wait. LOCAL    at 0x0001                 
+	defined in:    mcxinit.o
+.wait. LOCAL    at 0x0001                 
+	defined in:    mcx.o
+.wait. LOCAL    at 0x0001                 
+	defined in:    mcxclock.o
+.wait. LOCAL    at 0x0001                 
+	defined in:    mcxc.o
+.wait. LOCAL    at 0x0001                 
+	defined in:    mcxnull.o
+ACTIVE PUBLIC   at 0x217d in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+CLK_MS LOCAL    at 0x01f4                 
+	defined in:    isrs.o
+COPRST LOCAL    at 0x103a                 
+	defined in:    crtsi.o
+COPRST LOCAL    at 0x103a                 
+	defined in:    isrs.o
+COPRST LOCAL    at 0x103a                 
+	defined in:    mcxdata.o
+COPRST LOCAL    at 0x103a                 
+	defined in:    mcxinit.o
+COPRST LOCAL    at 0x103a                 
+	defined in:    mcx.o
+COPRST LOCAL    at 0x103a                 
+	defined in:    mcxclock.o
+COPRST LOCAL    at 0x103a                 
+	defined in:    mcxnull.o
+CRESET LOCAL    at 0x0004                 
+	defined in:    isrs.o
+CRESET LOCAL    at 0x0004                 
+	defined in:    mcxdata.o
+CRESET LOCAL    at 0x0004                 
+	defined in:    mcxinit.o
+CRESET LOCAL    at 0x0004                 
+	defined in:    mcx.o
+CRESET LOCAL    at 0x0004                 
+	defined in:    mcxclock.o
+CRESET LOCAL    at 0x0004                 
+	defined in:    mcxnull.o
+CTOCKS LOCAL    at 0x0002                 
+	defined in:    isrs.o
+CTOCKS LOCAL    at 0x0002                 
+	defined in:    mcxdata.o
+CTOCKS LOCAL    at 0x0002                 
+	defined in:    mcxinit.o
+CTOCKS LOCAL    at 0x0002                 
+	defined in:    mcx.o
+CTOCKS LOCAL    at 0x0002                 
+	defined in:    mcxclock.o
+CTOCKS LOCAL    at 0x0002                 
+	defined in:    mcxnull.o
+CURSIZ LOCAL    at 0x0000                 
+	defined in:    isrs.o
+CURSIZ LOCAL    at 0x0000                 
+	defined in:    mcxdata.o
+CURSIZ LOCAL    at 0x0000                 
+	defined in:    mcxinit.o
+CURSIZ LOCAL    at 0x0000                 
+	defined in:    mcx.o
+CURSIZ LOCAL    at 0x0000                 
+	defined in:    mcxclock.o
+CURSIZ LOCAL    at 0x0000                 
+	defined in:    mcxnull.o
+FLGTBL PUBLIC   at 0x218b in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+INITST LOCAL    at 0x0000                 
+	defined in:    isrs.o
+INITST LOCAL    at 0x0000                 
+	defined in:    mcxdata.o
+INITST LOCAL    at 0x0000                 
+	defined in:    mcxinit.o
+INITST LOCAL    at 0x0000                 
+	defined in:    mcx.o
+INITST LOCAL    at 0x0000                 
+	defined in:    mcxclock.o
+INITST LOCAL    at 0x0000                 
+	defined in:    mcxnull.o
+MCXVAR LOCAL    at 0x217a in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+NTASKS LOCAL    at 0x000c                 
+	defined in:    isrs.o
+NTASKS LOCAL    at 0x000c                 
+	defined in:    mcxdata.o
+NTASKS LOCAL    at 0x000c                 
+	defined in:    mcxinit.o
+NTASKS PUBLIC   at 0x000c                 
+	defined in:    mcx.o
+NTASKS LOCAL    at 0x000c                 
+	defined in:    mcxclock.o
+NTASKS LOCAL    at 0x000c                 
+	defined in:    mcxnull.o
+OPTION LOCAL    at 0x1039                 
+	defined in:    crtsi.o
+Q1BODY LOCAL    at 0x21de in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+STAK10 LOCAL    at 0x0718 in data section  of Segment No. 7
+	defined in:    mcxdata.o
+STAK11 LOCAL    at 0x0788 in data section  of Segment No. 7
+	defined in:    mcxdata.o
+STAK12 LOCAL    at 0x07f8 in data section  of Segment No. 7
+	defined in:    mcxdata.o
+STATLS PUBLIC   at 0x21a2 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+TASK10 LOCAL    at 0x21cf in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+TASK11 LOCAL    at 0x21d4 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+TASK12 LOCAL    at 0x21d9 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+TCBLEN LOCAL    at 0x0005                 
+	defined in:    isrs.o
+TCBLEN LOCAL    at 0x0005                 
+	defined in:    mcxdata.o
+TCBLEN LOCAL    at 0x0005                 
+	defined in:    mcxinit.o
+TCBLEN PUBLIC   at 0x0005                 
+	defined in:    mcx.o
+TCBLEN LOCAL    at 0x0005                 
+	defined in:    mcxclock.o
+TCBLEN LOCAL    at 0x0005                 
+	defined in:    mcxnull.o
+TIMERS PUBLIC   at 0x2112 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcxinit.o
+_SetSN PUBLIC   at 0x7c9d in text section  of Segment No. 1
+	defined in:    util.o
+	referenced in: main.o
+__itob PUBLIC   at 0xa3b6 in text section  of Segment No. 1
+	defined in:    itob.o(c:\c\lib\libi.h11)
+	referenced in: cprint.o(c:\c\lib\libi.h11)
+__ltob PUBLIC   at 0xa464 in text section  of Segment No. 1
+	defined in:    itob.o(c:\c\lib\libi.h11)
+	referenced in: cprint.o(c:\c\lib\libi.h11)
+__sbss LOCAL    at 0x2000 in bss  section  of Segment No. 8
+	defined in:    crtsi.o
+__udiv PUBLIC   at 0xa57e in text section  of Segment No. 1
+	defined in:    idiv.o(c:\c\lib\libi.h11)
+	referenced in: itob.o(c:\c\lib\libi.h11)
+_depth PUBLIC   at 0x2189 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+_gDisp PUBLIC   at 0x2067 in bss  section  of Segment No. 8
+	defined in:    display.o
+_gDoor PUBLIC   at 0x0286 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: coin.o
+_getad PUBLIC   at 0x7f9d in text section  of Segment No. 1
+	defined in:    dev.o
+_width PUBLIC   at 0x2188 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+append LOCAL    at 0xf43f in text section  of Segment No. 2
+	defined in:    mcx.o
+backup LOCAL    at 0xf303 in text section  of Segment No. 2
+	defined in:    mcx.o
+beginp LOCAL    at 0xf49a in text section  of Segment No. 2
+	defined in:    mcx.o
+c_divl PUBLIC   at 0xa8ba in text section  of Segment No. 1
+	defined in:    ldiv.o(c:\c\lib\libm.h11)
+	referenced in: ildiv.o(c:\c\lib\libi.h11)
+c_ents PUBLIC   at 0xa5c3 in text section  of Segment No. 1
+	defined in:    cent.o(c:\c\lib\libm.h11)
+	referenced in: menucode.o vend.o dev.o
+	              util.o dex.o bill.o
+	              coin.o mdb.o sci.o
+	              display.o keypad.o mis.o
+	              main.o
+c_idiv PUBLIC   at 0xa60b in text section  of Segment No. 1
+	defined in:    idiv.o(c:\c\lib\libm.h11)
+c_ilsh PUBLIC   at 0xa643 in text section  of Segment No. 1
+	defined in:    ilsh.o(c:\c\lib\libm.h11)
+	referenced in: menucode.o util.o bill.o
+	              coin.o display.o
+c_imod PUBLIC   at 0xa62e in text section  of Segment No. 1
+	defined in:    idiv.o(c:\c\lib\libm.h11)
+	referenced in: menucode.o display.o
+c_imul PUBLIC   at 0xa65d in text section  of Segment No. 1
+	defined in:    imul.o(c:\c\lib\libm.h11)
+	referenced in: menucode.o vend.o bill.o
+	              coin.o
+c_itol PUBLIC   at 0xa69f in text section  of Segment No. 1
+	defined in:    itol.o(c:\c\lib\libm.h11)
+	referenced in: bill.o coin.o
+c_ladd PUBLIC   at 0xa6b7 in text section  of Segment No. 1
+	defined in:    ladd.o(c:\c\lib\libm.h11)
+	referenced in: dex.o
+c_land PUBLIC   at 0xa6c9 in text section  of Segment No. 1
+	defined in:    land.o(c:\c\lib\libm.h11)
+	referenced in: dex.o keypad.o
+c_lcmp PUBLIC   at 0xa6de in text section  of Segment No. 1
+	defined in:    lcmp.o(c:\c\lib\libm.h11)
+	referenced in: menucode.o
+c_ldiv PUBLIC   at 0xa982 in text section  of Segment No. 1
+	defined in:    ldiv.o(c:\c\lib\libm.h11)
+	referenced in: dex.o mis.o
+c_lgor PUBLIC   at 0xa70a in text section  of Segment No. 1
+	defined in:    lgor.o(c:\c\lib\libm.h11)
+	referenced in: bill.o coin.o keypad.o
+c_llsh PUBLIC   at 0xa71f in text section  of Segment No. 1
+	defined in:    llsh.o(c:\c\lib\libm.h11)
+	referenced in: keypad.o
+c_lmod PUBLIC   at 0xa9a6 in text section  of Segment No. 1
+	defined in:    ldiv.o(c:\c\lib\libm.h11)
+	referenced in: dex.o mis.o
+c_lmul PUBLIC   at 0xa748 in text section  of Segment No. 1
+	defined in:    lmul.o(c:\c\lib\libm.h11)
+	referenced in: dex.o
+c_lneg PUBLIC   at 0xa7c4 in text section  of Segment No. 1
+	defined in:    lneg.o(c:\c\lib\libm.h11)
+	referenced in: itob.o(c:\c\lib\libi.h11)
+c_ludv PUBLIC   at 0xa882 in text section  of Segment No. 1
+	defined in:    ldiv.o(c:\c\lib\libm.h11)
+	referenced in: util.o
+c_lumd PUBLIC   at 0xa8a1 in text section  of Segment No. 1
+	defined in:    ldiv.o(c:\c\lib\libm.h11)
+	referenced in: util.o
+c_msps PUBLIC   at 0xa7e1 in text section  of Segment No. 1
+	defined in:    msp.o(c:\c\lib\libm.h11)
+	referenced in: cprint.o(c:\c\lib\libi.h11) menucode.o dbug.o
+	              util.o dex.o bill.o
+	              coin.o
+c_ursh PUBLIC   at 0xa803 in text section  of Segment No. 1
+	defined in:    ursh.o(c:\c\lib\libm.h11)
+	referenced in: util.o display.o
+chknxt LOCAL    at 0xf4ab in text section  of Segment No. 2
+	defined in:    mcx.o
+clkdrv PUBLIC   at 0xf4f0 in text section  of Segment No. 2
+	defined in:    mcxclock.o
+	referenced in: mcxinit.o mcxdata.o
+cnotl1 LOCAL    at 0xf545 in text section  of Segment No. 2
+	defined in:    mcxclock.o
+curtcb PUBLIC   at 0x2180 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+	              isrs.o
+curtsk PUBLIC   at 0x217f in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+	              isrs.o
+dispch PUBLIC   at 0xf0fd in text section  of Segment No. 2
+	defined in:    mcx.o
+	referenced in: mcxinit.o
+dopend LOCAL    at 0xf1e9 in text section  of Segment No. 2
+	defined in:    mcx.o
+dqloop LOCAL    at 0xf2e5 in text section  of Segment No. 2
+	defined in:    mcx.o
+endtsk LOCAL    at 0xf15c in text section  of Segment No. 2
+	defined in:    mcx.o
+gotask LOCAL    at 0xf3f8 in text section  of Segment No. 2
+	defined in:    mcx.o
+ic1srv PUBLIC   at 0x7dd6 in text section  of Segment No. 1
+	defined in:    isrs.o
+	referenced in: vector.o
+ic2srv PUBLIC   at 0x7de2 in text section  of Segment No. 1
+	defined in:    isrs.o
+	referenced in: vector.o
+ic3srv PUBLIC   at 0x7df5 in text section  of Segment No. 1
+	defined in:    isrs.o
+	referenced in: vector.o
+immrtn LOCAL    at 0xf15d in text section  of Segment No. 2
+	defined in:    mcx.o
+insert LOCAL    at 0xf249 in text section  of Segment No. 2
+	defined in:    mcx.o
+intlvl PUBLIC   at 0x2185 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+	              isrs.o
+intrtn PUBLIC   at 0xf124 in text section  of Segment No. 2
+	defined in:    mcx.o
+isrrtn PUBLIC   at 0xf125 in text section  of Segment No. 2
+	defined in:    mcx.o
+	referenced in: mcxclock.o isrs.o
+jtable LOCAL    at 0xf19f in text section  of Segment No. 2
+	defined in:    mcx.o
+linkit LOCAL    at 0xf441 in text section  of Segment No. 2
+	defined in:    mcx.o
+mcxsrv PUBLIC   at 0xf17c in text section  of Segment No. 2
+	defined in:    mcx.o
+	referenced in: vector.o
+metlow LOCAL    at 0x7e55 in text section  of Segment No. 1
+	defined in:    isrs.o
+newrev LOCAL    at 0x2000 in bss  section  of Segment No. 8
+	defined in:    crtsi.o
+noinit LOCAL    at 0x40de in text section  of Segment No. 1
+	defined in:    crtsi.o
+nopost LOCAL    at 0xf378 in text section  of Segment No. 2
+	defined in:    mcx.o
+notcur LOCAL    at 0xf38d in text section  of Segment No. 2
+	defined in:    mcx.o
+nowait LOCAL    at 0xf136 in text section  of Segment No. 2
+	defined in:    mcx.o
+nowrap LOCAL    at 0xf2bd in text section  of Segment No. 2
+	defined in:    mcx.o
+nqloop LOCAL    at 0xf368 in text section  of Segment No. 2
+	defined in:    mcx.o
+nsrtlp LOCAL    at 0xf23b in text section  of Segment No. 2
+	defined in:    mcx.o
+oc1srv PUBLIC   at 0x7e08 in text section  of Segment No. 1
+	defined in:    isrs.o
+	referenced in: vector.o
+postem LOCAL    at 0xf2f8 in text section  of Segment No. 2
+	defined in:    mcx.o
+pritcb PUBLIC   at 0x2183 in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+qempty LOCAL    at 0xf2fe in text section  of Segment No. 2
+	defined in:    mcx.o
+qsetup LOCAL    at 0xf316 in text section  of Segment No. 2
+	defined in:    mcx.o
+remove LOCAL    at 0xf4b7 in text section  of Segment No. 2
+	defined in:    mcx.o
+rev_ok LOCAL    at 0x409d in text section  of Segment No. 1
+	defined in:    crtsi.o
+rtiisr PUBLIC   at 0xf515 in text section  of Segment No. 2
+	defined in:    mcxclock.o
+	referenced in: vector.o
+rtixit LOCAL    at 0xf51f in text section  of Segment No. 2
+	defined in:    mcxclock.o
+rtncur PUBLIC   at 0xf122 in text section  of Segment No. 2
+	defined in:    mcx.o
+scisrv PUBLIC   at 0x7db8 in text section  of Segment No. 1
+	defined in:    isrs.o
+	referenced in: vector.o
+setcur PUBLIC   at 0xf11c in text section  of Segment No. 2
+	defined in:    mcx.o
+switch PUBLIC   at 0xf115 in text section  of Segment No. 2
+	defined in:    mcx.o
+testat PUBLIC   at 0xf10f in text section  of Segment No. 2
+	defined in:    mcx.o
+tmdone LOCAL    at 0xf089 in text section  of Segment No. 2
+	defined in:    mcxinit.o
+.delay. LOCAL    at 0x000d                 
+	defined in:    isrs.o
+.delay. LOCAL    at 0x000d                 
+	defined in:    mcxdata.o
+.delay. LOCAL    at 0x000d                 
+	defined in:    mcxinit.o
+.delay. LOCAL    at 0x000d                 
+	defined in:    mcx.o
+.delay. LOCAL    at 0x000d                 
+	defined in:    mcxclock.o
+.delay. LOCAL    at 0x000d                 
+	defined in:    mcxc.o
+.delay. LOCAL    at 0x000d                 
+	defined in:    mcxnull.o
+.deque. LOCAL    at 0x0007                 
+	defined in:    isrs.o
+.deque. LOCAL    at 0x0007                 
+	defined in:    mcxdata.o
+.deque. LOCAL    at 0x0007                 
+	defined in:    mcxinit.o
+.deque. LOCAL    at 0x0007                 
+	defined in:    mcx.o
+.deque. LOCAL    at 0x0007                 
+	defined in:    mcxclock.o
+.deque. LOCAL    at 0x0007                 
+	defined in:    mcxc.o
+.deque. LOCAL    at 0x0007                 
+	defined in:    mcxnull.o
+.enque. LOCAL    at 0x0008                 
+	defined in:    isrs.o
+.enque. LOCAL    at 0x0008                 
+	defined in:    mcxdata.o
+.enque. LOCAL    at 0x0008                 
+	defined in:    mcxinit.o
+.enque. LOCAL    at 0x0008                 
+	defined in:    mcx.o
+.enque. LOCAL    at 0x0008                 
+	defined in:    mcxclock.o
+.enque. LOCAL    at 0x0008                 
+	defined in:    mcxc.o
+.enque. LOCAL    at 0x0008                 
+	defined in:    mcxnull.o
+.purge. LOCAL    at 0x000f                 
+	defined in:    isrs.o
+.purge. LOCAL    at 0x000f                 
+	defined in:    mcxdata.o
+.purge. LOCAL    at 0x000f                 
+	defined in:    mcxinit.o
+.purge. LOCAL    at 0x000f                 
+	defined in:    mcx.o
+.purge. LOCAL    at 0x000f                 
+	defined in:    mcxclock.o
+.purge. LOCAL    at 0x000f                 
+	defined in:    mcxc.o
+.purge. LOCAL    at 0x000f                 
+	defined in:    mcxnull.o
+.resume LOCAL    at 0xf380 in text section  of Segment No. 2
+	defined in:    mcx.o
+.sendw. LOCAL    at 0x0005                 
+	defined in:    isrs.o
+.sendw. LOCAL    at 0x0005                 
+	defined in:    mcxdata.o
+.sendw. LOCAL    at 0x0005                 
+	defined in:    mcxinit.o
+.sendw. LOCAL    at 0x0005                 
+	defined in:    mcx.o
+.sendw. LOCAL    at 0x0005                 
+	defined in:    mcxclock.o
+.sendw. LOCAL    at 0x0005                 
+	defined in:    mcxc.o
+.sendw. LOCAL    at 0x0005                 
+	defined in:    mcxnull.o
+.signal LOCAL    at 0xf12a in text section  of Segment No. 2
+	defined in:    mcx.o
+.suspnd LOCAL    at 0xf385 in text section  of Segment No. 2
+	defined in:    mcx.o
+.termn8 LOCAL    at 0xf39a in text section  of Segment No. 2
+	defined in:    mcx.o
+.timer. LOCAL    at 0x000e                 
+	defined in:    isrs.o
+.timer. LOCAL    at 0x000e                 
+	defined in:    mcxdata.o
+.timer. LOCAL    at 0x000e                 
+	defined in:    mcxinit.o
+.timer. LOCAL    at 0x000e                 
+	defined in:    mcx.o
+.timer. LOCAL    at 0x000e                 
+	defined in:    mcxclock.o
+.timer. LOCAL    at 0x000e                 
+	defined in:    mcxc.o
+.timer. LOCAL    at 0x000e                 
+	defined in:    mcxnull.o
+CLKTASK LOCAL    at 0x0001                 
+	defined in:    mcxclock.o
+MPULSE1 LOCAL    at 0x0008                 
+	defined in:    isrs.o
+MPULSE2 LOCAL    at 0x0004                 
+	defined in:    isrs.o
+MSGTHRD LOCAL    at 0x0003                 
+	defined in:    isrs.o
+MSGTHRD LOCAL    at 0x0003                 
+	defined in:    mcxdata.o
+MSGTHRD LOCAL    at 0x0003                 
+	defined in:    mcxinit.o
+MSGTHRD LOCAL    at 0x0003                 
+	defined in:    mcx.o
+MSGTHRD LOCAL    at 0x0003                 
+	defined in:    mcxclock.o
+MSGTHRD LOCAL    at 0x0003                 
+	defined in:    mcxnull.o
+NNAMSEM LOCAL    at 0x0009                 
+	defined in:    isrs.o
+NNAMSEM LOCAL    at 0x0009                 
+	defined in:    mcxdata.o
+NNAMSEM LOCAL    at 0x0009                 
+	defined in:    mcxinit.o
+NNAMSEM PUBLIC   at 0x0009                 
+	defined in:    mcx.o
+NNAMSEM LOCAL    at 0x0009                 
+	defined in:    mcxclock.o
+NNAMSEM LOCAL    at 0x0009                 
+	defined in:    mcxnull.o
+NQUEUES LOCAL    at 0x0001                 
+	defined in:    isrs.o
+NQUEUES LOCAL    at 0x0001                 
+	defined in:    mcxdata.o
+NQUEUES LOCAL    at 0x0001                 
+	defined in:    mcxinit.o
+NQUEUES LOCAL    at 0x0001                 
+	defined in:    mcx.o
+NQUEUES LOCAL    at 0x0001                 
+	defined in:    mcxclock.o
+NQUEUES LOCAL    at 0x0001                 
+	defined in:    mcxnull.o
+NTIMERS LOCAL    at 0x000d                 
+	defined in:    isrs.o
+NTIMERS LOCAL    at 0x000d                 
+	defined in:    mcxdata.o
+NTIMERS LOCAL    at 0x000d                 
+	defined in:    mcxinit.o
+NTIMERS LOCAL    at 0x000d                 
+	defined in:    mcx.o
+NTIMERS LOCAL    at 0x000d                 
+	defined in:    mcxclock.o
+NTIMERS LOCAL    at 0x000d                 
+	defined in:    mcxnull.o
+QHDRLEN LOCAL    at 0x0003                 
+	defined in:    isrs.o
+QHDRLEN LOCAL    at 0x0003                 
+	defined in:    mcxdata.o
+QHDRLEN LOCAL    at 0x0003                 
+	defined in:    mcxinit.o
+QHDRLEN LOCAL    at 0x0003                 
+	defined in:    mcx.o
+QHDRLEN LOCAL    at 0x0003                 
+	defined in:    mcxclock.o
+QHDRLEN LOCAL    at 0x0003                 
+	defined in:    mcxnull.o
+QHDRTBL PUBLIC   at 0x210f in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcxinit.o
+QUEDATA PUBLIC   at 0xf000 in text section  of Segment No. 2
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+QUEDATL LOCAL    at 0x0006                 
+	defined in:    isrs.o
+QUEDATL LOCAL    at 0x0006                 
+	defined in:    mcxdata.o
+QUEDATL LOCAL    at 0x0006                 
+	defined in:    mcxinit.o
+QUEDATL PUBLIC   at 0x0006                 
+	defined in:    mcx.o
+QUEDATL LOCAL    at 0x0006                 
+	defined in:    mcxclock.o
+QUEDATL LOCAL    at 0x0006                 
+	defined in:    mcxnull.o
+STKBASE PUBLIC   at 0x07f8 in data section  of Segment No. 7
+	defined in:    mcxdata.o
+STRTADR LOCAL    at 0x0001                 
+	defined in:    isrs.o
+STRTADR LOCAL    at 0x0001                 
+	defined in:    mcxdata.o
+STRTADR LOCAL    at 0x0001                 
+	defined in:    mcxinit.o
+STRTADR PUBLIC   at 0x0001                 
+	defined in:    mcx.o
+STRTADR LOCAL    at 0x0001                 
+	defined in:    mcxclock.o
+STRTADR LOCAL    at 0x0001                 
+	defined in:    mcxnull.o
+SYSTACK PUBLIC   at 0x20ea in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+	              isrs.o
+TCBADDR LOCAL    at 0x0005                 
+	defined in:    isrs.o
+TCBADDR LOCAL    at 0x0005                 
+	defined in:    mcxdata.o
+TCBADDR LOCAL    at 0x0005                 
+	defined in:    mcxinit.o
+TCBADDR PUBLIC   at 0x0005                 
+	defined in:    mcx.o
+TCBADDR LOCAL    at 0x0005                 
+	defined in:    mcxclock.o
+TCBADDR LOCAL    at 0x0005                 
+	defined in:    mcxnull.o
+TCBDATA PUBLIC   at 0xf006 in text section  of Segment No. 2
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+TCBDATL LOCAL    at 0x0007                 
+	defined in:    isrs.o
+TCBDATL LOCAL    at 0x0007                 
+	defined in:    mcxdata.o
+TCBDATL LOCAL    at 0x0007                 
+	defined in:    mcxinit.o
+TCBDATL PUBLIC   at 0x0007                 
+	defined in:    mcx.o
+TCBDATL LOCAL    at 0x0007                 
+	defined in:    mcxclock.o
+TCBDATL LOCAL    at 0x0007                 
+	defined in:    mcxnull.o
+TIMRLEN LOCAL    at 0x0008                 
+	defined in:    isrs.o
+TIMRLEN LOCAL    at 0x0008                 
+	defined in:    mcxdata.o
+TIMRLEN LOCAL    at 0x0008                 
+	defined in:    mcxinit.o
+TIMRLEN LOCAL    at 0x0008                 
+	defined in:    mcx.o
+TIMRLEN LOCAL    at 0x0008                 
+	defined in:    mcxclock.o
+TIMRLEN LOCAL    at 0x0008                 
+	defined in:    mcxnull.o
+_RCVWAT LOCAL    at 0x0020                 
+	defined in:    isrs.o
+_RCVWAT LOCAL    at 0x0020                 
+	defined in:    mcxdata.o
+_RCVWAT LOCAL    at 0x0020                 
+	defined in:    mcxinit.o
+_RCVWAT LOCAL    at 0x0020                 
+	defined in:    mcx.o
+_RCVWAT LOCAL    at 0x0020                 
+	defined in:    mcxclock.o
+_RCVWAT LOCAL    at 0x0020                 
+	defined in:    mcxnull.o
+_SUSPND LOCAL    at 0x0080                 
+	defined in:    isrs.o
+_SUSPND LOCAL    at 0x0080                 
+	defined in:    mcxdata.o
+_SUSPND LOCAL    at 0x0080                 
+	defined in:    mcxinit.o
+_SUSPND LOCAL    at 0x0080                 
+	defined in:    mcx.o
+_SUSPND LOCAL    at 0x0080                 
+	defined in:    mcxclock.o
+_SUSPND LOCAL    at 0x0080                 
+	defined in:    mcxnull.o
+__pdata PUBLIC   at 0xa9da in text section  of Segment No. 1
+	defined in:    command line
+	referenced in: crtsi.o
+__print PUBLIC   at 0x9f38 in text section  of Segment No. 1
+	defined in:    cprint.o(c:\c\lib\libi.h11)
+	referenced in: sprnt.o(c:\c\lib\libi.h11) printf.o(c:\c\lib\libi.h11) dex.o
+	              display.o
+__sdata LOCAL    at 0x031e in data section  of Segment No. 7
+	defined in:    crtsi.o
+__stext PUBLIC   at 0x4057 in text section  of Segment No. 1
+	defined in:    crtsi.o
+	referenced in: mcxinit.o
+__uldiv PUBLIC   at 0xa590 in text section  of Segment No. 1
+	defined in:    ildiv.o(c:\c\lib\libi.h11)
+	referenced in: itob.o(c:\c\lib\libi.h11)
+_bcdbin PUBLIC   at 0x908f in text section  of Segment No. 1
+	defined in:    menucode.o
+_binbcd PUBLIC   at 0x90cd in text section  of Segment No. 1
+	defined in:    menucode.o
+_coprtn PUBLIC   at 0x7db6 in text section  of Segment No. 1
+	defined in:    isrs.o
+_eepcpy PUBLIC   at 0x9d08 in text section  of Segment No. 1
+	defined in:    eepcpy.o(c:\c\lib\libi.h11)
+	referenced in: menucode.o main.o
+_eepera PUBLIC   at 0xa81d in text section  of Segment No. 1
+	defined in:    eeprom.o(c:\c\lib\libm.h11)
+_fn_cpo PUBLIC   at 0x99da in text section  of Segment No. 1
+	defined in:    menucode.o
+_gChase PUBLIC   at 0x027c in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: dex.o display.o
+_gPrice PUBLIC   at 0xb603 in data section  of Segment No. 5
+	defined in:    eeprom.o
+	referenced in: menudef.o vend.o dev.o
+	              dex.o bill.o coin.o
+	              main.o
+_gSNset PUBLIC   at 0xb600 in data section  of Segment No. 5
+	defined in:    eeprom.o
+	referenced in: main.o
+_irqrtn PUBLIC   at 0x7db4 in text section  of Segment No. 1
+	defined in:    isrs.o
+_printf PUBLIC   at 0x9d2d in text section  of Segment No. 1
+	defined in:    printf.o(c:\c\lib\libi.h11)
+	referenced in: dbug.o
+_strcat PUBLIC   at 0x9d6c in text section  of Segment No. 1
+	defined in:    strcat.o(c:\c\lib\libi.h11)
+	referenced in: dex.o
+_strchr PUBLIC   at 0xa54e in text section  of Segment No. 1
+	defined in:    strchr.o(c:\c\lib\libi.h11)
+	referenced in: cprint.o(c:\c\lib\libi.h11)
+_strcpy PUBLIC   at 0x9d89 in text section  of Segment No. 1
+	defined in:    strcpy.o(c:\c\lib\libi.h11)
+	referenced in: dex.o
+_strlen PUBLIC   at 0xa562 in text section  of Segment No. 1
+	defined in:    strlen.o(c:\c\lib\libi.h11)
+	referenced in: cprint.o(c:\c\lib\libi.h11) dex.o
+_updcrc PUBLIC   at 0x73c1 in text section  of Segment No. 1
+	defined in:    dex.o
+c_eewrc PUBLIC   at 0xa826 in text section  of Segment No. 1
+	defined in:    eeprom.o(c:\c\lib\libm.h11)
+	referenced in: eepcpy.o(c:\c\lib\libi.h11) main.o
+c_eewrl PUBLIC   at 0xa85b in text section  of Segment No. 1
+	defined in:    eeprom.o(c:\c\lib\libm.h11)
+c_eewrw PUBLIC   at 0xa856 in text section  of Segment No. 1
+	defined in:    eeprom.o(c:\c\lib\libm.h11)
+	referenced in: eeprom.o
+c_imulb PUBLIC   at 0xa686 in text section  of Segment No. 1
+	defined in:    imulb.o(c:\c\lib\libm.h11)
+	referenced in: menucode.o vend.o dev.o
+	              dbug.o
+c_jctab PUBLIC   at 0xa6ab in text section  of Segment No. 1
+	defined in:    jctab.o(c:\c\lib\libm.h11)
+	referenced in: cprint.o(c:\c\lib\libi.h11) menucode.o
+c_kenls PUBLIC   at 0xa5d6 in text section  of Segment No. 1
+	defined in:    ckenl.o(c:\c\lib\libm.h11)
+	referenced in: util.o mis.o
+c_kenst PUBLIC   at 0xa5ef in text section  of Segment No. 1
+	defined in:    ckent.o(c:\c\lib\libm.h11)
+c_kents PUBLIC   at 0xa5f6 in text section  of Segment No. 1
+	defined in:    ckent.o(c:\c\lib\libm.h11)
+	referenced in: itob.o(c:\c\lib\libi.h11) cprint.o(c:\c\lib\libi.h11) menucode.o
+	              vend.o dbug.o util.o
+	              dex.o bill.o coin.o
+	              mdb.o display.o
+c_lgadd PUBLIC   at 0xa6f8 in text section  of Segment No. 1
+	defined in:    lgadd.o(c:\c\lib\libm.h11)
+	referenced in: menucode.o vend.o bill.o
+	              coin.o
+c_lrzmp PUBLIC   at 0xa7d6 in text section  of Segment No. 1
+	defined in:    lrzmp.o(c:\c\lib\libm.h11)
+	referenced in: util.o dex.o keypad.o
+c_ulcmp PUBLIC   at 0xa7f6 in text section  of Segment No. 1
+	defined in:    ulcmp.o(c:\c\lib\libm.h11)
+	referenced in: util.o
+chksema LOCAL    at 0xf48a in text section  of Segment No. 2
+	defined in:    mcx.o
+clrbits LOCAL    at 0xf149 in text section  of Segment No. 2
+	defined in:    mcx.o
+clrstat LOCAL    at 0xf13f in text section  of Segment No. 2
+	defined in:    mcx.o
+endpurg LOCAL    at 0xf4ed in text section  of Segment No. 2
+	defined in:    mcx.o
+execute LOCAL    at 0xf3b9 in text section  of Segment No. 2
+	defined in:    mcx.o
+goodtsk PUBLIC   at 0xf10f in text section  of Segment No. 2
+	defined in:    mcx.o
+gotsema LOCAL    at 0xf407 in text section  of Segment No. 2
+	defined in:    mcx.o
+havsema LOCAL    at 0xf204 in text section  of Segment No. 2
+	defined in:    mcx.o
+mcxinit PUBLIC   at 0xf05a in text section  of Segment No. 2
+	defined in:    mcxinit.o
+	referenced in: vector.o
+nostart LOCAL    at 0xf0d8 in text section  of Segment No. 2
+	defined in:    mcxinit.o
+notdisp LOCAL    at 0xf16f in text section  of Segment No. 2
+	defined in:    mcx.o
+notself LOCAL    at 0xf3f1 in text section  of Segment No. 2
+	defined in:    mcx.o
+nulltsk PUBLIC   at 0xe000 in text section  of Segment No. 3
+	defined in:    mcxnull.o
+	referenced in: mcxinit.o
+nulthrd LOCAL    at 0xf276 in text section  of Segment No. 2
+	defined in:    mcx.o
+pendset LOCAL    at 0xf1ed in text section  of Segment No. 2
+	defined in:    mcx.o
+prgexit LOCAL    at 0xf4dd in text section  of Segment No. 2
+	defined in:    mcx.o
+rcvloop LOCAL    at 0xf28d in text section  of Segment No. 2
+	defined in:    mcx.o
+sametsk LOCAL    at 0xf4af in text section  of Segment No. 2
+	defined in:    mcx.o
+savrset LOCAL    at 0xf40f in text section  of Segment No. 2
+	defined in:    mcx.o
+savtime LOCAL    at 0xf41b in text section  of Segment No. 2
+	defined in:    mcx.o
+selfnot LOCAL    at 0xf3a8 in text section  of Segment No. 2
+	defined in:    mcx.o
+setidle LOCAL    at 0xf3b2 in text section  of Segment No. 2
+	defined in:    mcx.o
+setspnd LOCAL    at 0xf394 in text section  of Segment No. 2
+	defined in:    mcx.o
+signal2 LOCAL    at 0xf12b in text section  of Segment No. 2
+	defined in:    mcx.o
+special LOCAL    at 0xf285 in text section  of Segment No. 2
+	defined in:    mcx.o
+tickcnt PUBLIC   at 0x217a in bss  section  of Segment No. 8
+	defined in:    mcxdata.o
+	referenced in: mcxclock.o mcx.o mcxinit.o
+tmrdone LOCAL    at 0xf4f3 in text section  of Segment No. 2
+	defined in:    mcxclock.o
+tockdon LOCAL    at 0xf520 in text section  of Segment No. 2
+	defined in:    mcxclock.o
+waitnot LOCAL    at 0xf21b in text section  of Segment No. 2
+	defined in:    mcx.o
+waitrcv LOCAL    at 0xf271 in text section  of Segment No. 2
+	defined in:    mcx.o
+wrapnot LOCAL    at 0xf345 in text section  of Segment No. 2
+	defined in:    mcx.o
+.resume. LOCAL    at 0x0009                 
+	defined in:    isrs.o
+.resume. LOCAL    at 0x0009                 
+	defined in:    mcxdata.o
+.resume. LOCAL    at 0x0009                 
+	defined in:    mcxinit.o
+.resume. LOCAL    at 0x0009                 
+	defined in:    mcx.o
+.resume. LOCAL    at 0x0009                 
+	defined in:    mcxclock.o
+.resume. LOCAL    at 0x0009                 
+	defined in:    mcxc.o
+.resume. LOCAL    at 0x0009                 
+	defined in:    mcxnull.o
+.signal. LOCAL    at 0x0002                 
+	defined in:    isrs.o
+.signal. LOCAL    at 0x0002                 
+	defined in:    mcxdata.o
+.signal. LOCAL    at 0x0002                 
+	defined in:    mcxinit.o
+.signal. LOCAL    at 0x0002                 
+	defined in:    mcx.o
+.signal. LOCAL    at 0x0002                 
+	defined in:    mcxclock.o
+.signal. LOCAL    at 0x0002                 
+	defined in:    mcxc.o
+.signal. LOCAL    at 0x0002                 
+	defined in:    mcxnull.o
+_InitMCU PUBLIC   at 0x4109 in text section  of Segment No. 1
+	defined in:    main.o
+_SetFlag PUBLIC   at 0x993c in text section  of Segment No. 1
+	defined in:    menucode.o
+_SetNumb PUBLIC   at 0x9bb2 in text section  of Segment No. 1
+	defined in:    menucode.o
+_SetTime PUBLIC   at 0x95c2 in text section  of Segment No. 1
+	defined in:    menucode.o
+_TCBDATA PUBLIC   at 0xf006 in text section  of Segment No. 2
+	defined in:    mcxdata.o
+	referenced in: dbug.o
+__memory PUBLIC   at 0x21e6 in bss  section  of Segment No. 8
+	defined in:    command line
+	referenced in: crtsi.o
+__return PUBLIC   at 0x40fd in text section  of Segment No. 1
+	defined in:    crtsi.o
+_copduty PUBLIC   at 0x40fe in text section  of Segment No. 1
+	defined in:    crtsi.o
+	referenced in: mcxnull.o mis.o
+_dex_rcv PUBLIC   at 0x740f in text section  of Segment No. 1
+	defined in:    dex.o
+_dex_snd PUBLIC   at 0x73fb in text section  of Segment No. 1
+	defined in:    dex.o
+_do_vend PUBLIC   at 0x852b in text section  of Segment No. 1
+	defined in:    vend.o
+_fn_exit PUBLIC   at 0x914b in text section  of Segment No. 1
+	defined in:    menucode.o
+_fn_menu PUBLIC   at 0x91a9 in text section  of Segment No. 1
+	defined in:    menucode.o
+	referenced in: main.o
+_fn_vend PUBLIC   at 0x9c50 in text section  of Segment No. 1
+	defined in:    menucode.o
+	referenced in: menudef.o
+_gCredit PUBLIC   at 0x01ee in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: vend.o dev.o bill.o
+	              coin.o main.o
+_gDebDex PUBLIC   at 0x027d in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: main.o
+_gGallon PUBLIC   at 0x005e in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: menucode.o menudef.o vend.o
+_gMaster PUBLIC   at 0x031d in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: vend.o dev.o dex.o
+	              main.o
+_gNumStr PUBLIC   at 0x209e in bss  section  of Segment No. 8
+	defined in:    menucode.o
+_gOption PUBLIC   at 0x01f0 in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: menudef.o coin.o main.o
+	              eeprom.o
+_gSwitch PUBLIC   at 0x0302 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: vend.o dex.o keypad.o
+	              main.o
+_key_get PUBLIC   at 0x49af in text section  of Segment No. 1
+	defined in:    keypad.o
+_mcxtask PUBLIC   at 0x7e6c in text section  of Segment No. 1
+	defined in:    dbug.o
+_mis_sel PUBLIC   at 0x47d0 in text section  of Segment No. 1
+	defined in:    mis.o
+_mis_tot PUBLIC   at 0x475a in text section  of Segment No. 1
+	defined in:    mis.o
+_movdata PUBLIC   at 0x533b in text section  of Segment No. 1
+	defined in:    mdb.o
+_putchar PUBLIC   at 0xa52d in text section  of Segment No. 1
+	defined in:    putchr.o(c:\c\lib\libi.h11)
+	referenced in: cprint.o(c:\c\lib\libi.h11)
+_rsrc_AD PUBLIC   at 0x0301 in data section  of Segment No. 7
+	defined in:    globals.o
+_sci_dex PUBLIC   at 0x51d3 in text section  of Segment No. 1
+	defined in:    sci.o
+_sci_int PUBLIC   at 0x5317 in text section  of Segment No. 1
+	defined in:    sci.o
+	referenced in: isrs.o
+_sci_mdb PUBLIC   at 0x50f9 in text section  of Segment No. 1
+	defined in:    sci.o
+_sprintf PUBLIC   at 0x9d48 in text section  of Segment No. 1
+	defined in:    sprnt.o(c:\c\lib\libi.h11)
+	referenced in: menucode.o util.o dex.o
+_toupper PUBLIC   at 0xa572 in text section  of Segment No. 1
+	defined in:    toup.o(c:\c\lib\libi.h11)
+	referenced in: cprint.o(c:\c\lib\libi.h11)
+_wait1ms PUBLIC   at 0x7e5e in text section  of Segment No. 1
+	defined in:    isrs.o
+_wait2ms PUBLIC   at 0x7e5c in text section  of Segment No. 1
+	defined in:    isrs.o
+_xirqrtn PUBLIC   at 0x7db5 in text section  of Segment No. 1
+	defined in:    isrs.o
+c_imul10 PUBLIC   at 0xa67a in text section  of Segment No. 1
+	defined in:    imul10.o(c:\c\lib\libm.h11)
+	referenced in: cprint.o(c:\c\lib\libi.h11) menucode.o
+.execute. LOCAL    at 0x000c                 
+	defined in:    isrs.o
+.execute. LOCAL    at 0x000c                 
+	defined in:    mcxdata.o
+.execute. LOCAL    at 0x000c                 
+	defined in:    mcxinit.o
+.execute. LOCAL    at 0x000c                 
+	defined in:    mcx.o
+.execute. LOCAL    at 0x000c                 
+	defined in:    mcxclock.o
+.execute. LOCAL    at 0x000c                 
+	defined in:    mcxc.o
+.execute. LOCAL    at 0x000c                 
+	defined in:    mcxnull.o
+.receive. LOCAL    at 0x0006                 
+	defined in:    isrs.o
+.receive. LOCAL    at 0x0006                 
+	defined in:    mcxdata.o
+.receive. LOCAL    at 0x0006                 
+	defined in:    mcxinit.o
+.receive. LOCAL    at 0x0006                 
+	defined in:    mcx.o
+.receive. LOCAL    at 0x0006                 
+	defined in:    mcxclock.o
+.receive. LOCAL    at 0x0006                 
+	defined in:    mcxc.o
+.receive. LOCAL    at 0x0006                 
+	defined in:    mcxnull.o
+.suspend. LOCAL    at 0x000a                 
+	defined in:    isrs.o
+.suspend. LOCAL    at 0x000a                 
+	defined in:    mcxdata.o
+.suspend. LOCAL    at 0x000a                 
+	defined in:    mcxinit.o
+.suspend. LOCAL    at 0x000a                 
+	defined in:    mcx.o
+.suspend. LOCAL    at 0x000a                 
+	defined in:    mcxclock.o
+.suspend. LOCAL    at 0x000a                 
+	defined in:    mcxc.o
+.suspend. LOCAL    at 0x000a                 
+	defined in:    mcxnull.o
+_ROstatus PUBLIC   at 0x68b0 in text section  of Segment No. 1
+	defined in:    dex.o
+_SetPrice PUBLIC   at 0x9881 in text section  of Segment No. 1
+	defined in:    menucode.o
+_SetTimer PUBLIC   at 0x9742 in text section  of Segment No. 1
+	defined in:    menucode.o
+_debounce PUBLIC   at 0x77aa in text section  of Segment No. 1
+	defined in:    util.o
+	referenced in: vend.o dev.o keypad.o
+	              main.o
+_dex_xfer PUBLIC   at 0x6d5b in text section  of Segment No. 1
+	defined in:    dex.o
+	referenced in: main.o
+_disp_bcd PUBLIC   at 0x4c79 in text section  of Segment No. 1
+	defined in:    display.o
+_disp_bin PUBLIC   at 0x4dcf in text section  of Segment No. 1
+	defined in:    display.o
+_disp_btn PUBLIC   at 0x7858 in text section  of Segment No. 1
+	defined in:    util.o
+_disp_hex PUBLIC   at 0x4c37 in text section  of Segment No. 1
+	defined in:    display.o
+_disp_led PUBLIC   at 0x4c1c in text section  of Segment No. 1
+	defined in:    display.o
+	referenced in: main.o
+_disp_num PUBLIC   at 0x4d86 in text section  of Segment No. 1
+	defined in:    display.o
+_gROTimer PUBLIC   at 0x0255 in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: vend.o dev.o
+_gROstate PUBLIC   at 0x025b in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: vend.o dev.o dex.o
+	              keypad.o
+_lastchar PUBLIC   at 0x206d in bss  section  of Segment No. 8
+	defined in:    sci.o
+_mdb_init PUBLIC   at 0x53eb in text section  of Segment No. 1
+	defined in:    mdb.o
+	referenced in: main.o
+_menu_mis PUBLIC   at 0x8df3 in text section  of Segment No. 1
+	defined in:    menudef.o
+_progvers PUBLIC   at 0x4000 in text section  of Segment No. 1
+	defined in:    version.o
+	referenced in: dex.o main.o crtsi.o
+	              eeprom.o
+_rsrc_SCI PUBLIC   at 0x0300 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: menucode.o dbug.o dex.o
+	              bill.o coin.o mdb.o
+	              main.o
+_sci_init PUBLIC   at 0x50e7 in text section  of Segment No. 1
+	defined in:    sci.o
+	referenced in: main.o
+_snchange PUBLIC   at 0x7b7e in text section  of Segment No. 1
+	defined in:    util.o
+_task_dev PUBLIC   at 0x837a in text section  of Segment No. 1
+	defined in:    dev.o
+	referenced in: mcxdata.o
+_task_mdb PUBLIC   at 0x5375 in text section  of Segment No. 1
+	defined in:    mdb.o
+	referenced in: mcxdata.o
+_tcb_data PUBLIC   at 0x032e in data section  of Segment No. 7
+	defined in:    dbug.o
+_vendtask PUBLIC   at 0x85c8 in text section  of Segment No. 1
+	defined in:    vend.o
+lastmeter LOCAL    at 0x209a in bss  section  of Segment No. 8
+	defined in:    isrs.o
+_KeyStatus PUBLIC   at 0x6837 in text section  of Segment No. 1
+	defined in:    dex.o
+_bill_poll PUBLIC   at 0x656d in text section  of Segment No. 1
+	defined in:    bill.o
+	referenced in: mdb.o
+_bramvalid PUBLIC   at 0x0260 in data section  of Segment No. 6
+	defined in:    bram.o
+_coin_init PUBLIC   at 0x556f in text section  of Segment No. 1
+	defined in:    coin.o
+	referenced in: mdb.o
+_coin_poll PUBLIC   at 0x5945 in text section  of Segment No. 1
+	defined in:    coin.o
+	referenced in: mdb.o
+_coin_slug PUBLIC   at 0x5944 in text section  of Segment No. 1
+	defined in:    coin.o
+_debounce2 PUBLIC   at 0x780e in text section  of Segment No. 1
+	defined in:    util.o
+	referenced in: keypad.o
+_fn_return PUBLIC   at 0x914f in text section  of Segment No. 1
+	defined in:    menucode.o
+_gExitType PUBLIC   at 0x01e6 in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: menucode.o menudef.o vend.o
+	              eeprom.o
+_gFirstTry PUBLIC   at 0x0265 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: vend.o dev.o coin.o
+_gKeyPress PUBLIC   at 0x205f in bss  section  of Segment No. 8
+	defined in:    keypad.o
+_gKeyStuck PUBLIC   at 0x2063 in bss  section  of Segment No. 8
+	defined in:    keypad.o
+	referenced in: dex.o
+_gMaxPrice PUBLIC   at 0xb60b in data section  of Segment No. 5
+	defined in:    eeprom.o
+	referenced in: menudef.o dex.o bill.o
+	              coin.o
+_gROgalcnt PUBLIC   at 0x0251 in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: vend.o dev.o
+_gROgalmax PUBLIC   at 0x0046 in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: menudef.o vend.o
+_gZeroFill PUBLIC   at 0x0283 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: display.o mis.o
+_menu_test PUBLIC   at 0x8ee3 in text section  of Segment No. 1
+	defined in:    menudef.o
+_mis_clear PUBLIC   at 0x47d2 in text section  of Segment No. 1
+	defined in:    mis.o
+	referenced in: menucode.o
+_rsrc_lock PUBLIC   at 0x7748 in text section  of Segment No. 1
+	defined in:    rsrc.o
+	referenced in: menucode.o dbug.o dex.o
+	              bill.o coin.o mdb.o
+_seg_xlate PUBLIC   at 0x4bac in text section  of Segment No. 1
+	defined in:    display.o
+_stackfree PUBLIC   at 0x7ef0 in text section  of Segment No. 1
+	defined in:    dbug.o
+_strdprice PUBLIC   at 0x7938 in text section  of Segment No. 1
+	defined in:    util.o
+	referenced in: menucode.o
+_task_dbug PUBLIC   at 0x7f40 in text section  of Segment No. 1
+	defined in:    dbug.o
+_task_main PUBLIC   at 0x423e in text section  of Segment No. 1
+	defined in:    main.o
+	referenced in: mcxdata.o
+_wait100us PUBLIC   at 0x7e67 in text section  of Segment No. 1
+	defined in:    isrs.o
+.terminate. LOCAL    at 0x000b                 
+	defined in:    isrs.o
+.terminate. LOCAL    at 0x000b                 
+	defined in:    mcxdata.o
+.terminate. LOCAL    at 0x000b                 
+	defined in:    mcxinit.o
+.terminate. LOCAL    at 0x000b                 
+	defined in:    mcx.o
+.terminate. LOCAL    at 0x000b                 
+	defined in:    mcxclock.o
+.terminate. LOCAL    at 0x000b                 
+	defined in:    mcxc.o
+.terminate. LOCAL    at 0x000b                 
+	defined in:    mcxnull.o
+_FmtDollars PUBLIC   at 0x68ef in text section  of Segment No. 1
+	defined in:    dex.o
+_TempString PUBLIC   at 0x2072 in bss  section  of Segment No. 8
+	defined in:    dex.o
+_WaterDirty PUBLIC   at 0x4200 in text section  of Segment No. 1
+	defined in:    main.o
+	referenced in: vend.o
+_coin_exact PUBLIC   at 0x62ff in text section  of Segment No. 1
+	defined in:    coin.o
+	referenced in: main.o
+_dex_sndrec PUBLIC   at 0x75f7 in text section  of Segment No. 1
+	defined in:    dex.o
+_disp_price PUBLIC   at 0x4d25 in text section  of Segment No. 1
+	defined in:    display.o
+	referenced in: menucode.o vend.o coin.o
+	              mis.o main.o
+_eepversion PUBLIC   at 0xb601 in data section  of Segment No. 5
+	defined in:    eeprom.o
+	referenced in: main.o crtsi.o
+_gCalcExact PUBLIC   at 0x027a in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: menucode.o coin.o main.o
+_gCoinCount PUBLIC   at 0x026a in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: coin.o main.o
+_gCoinToken PUBLIC   at 0x0267 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: vend.o coin.o main.o
+_gGalSelect PUBLIC   at 0x024b in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: menucode.o vend.o dev.o
+_gKeyMatrix PUBLIC   at 0x49a7 in text section  of Segment No. 1
+	defined in:    keypad.o
+_gPourTimer PUBLIC   at 0x0257 in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: vend.o dev.o
+_gVendTimer PUBLIC   at 0x030a in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: vend.o dev.o
+_keypadchar PUBLIC   at 0x0288 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: menucode.o dev.o keypad.o
+	              main.o
+_menu_setro PUBLIC   at 0x8f41 in text section  of Segment No. 1
+	defined in:    menudef.o
+_menu_slave PUBLIC   at 0x9031 in text section  of Segment No. 1
+	defined in:    menudef.o
+	referenced in: main.o
+_seghexcode PUBLIC   at 0x4c0c in text section  of Segment No. 1
+	defined in:    display.o
+_spi_sndrcv PUBLIC   at 0x8361 in text section  of Segment No. 1
+	defined in:    dev.o
+_task_vend1 PUBLIC   at 0x8bf2 in text section  of Segment No. 1
+	defined in:    vend.o
+	referenced in: mcxdata.o
+_task_vend2 PUBLIC   at 0x8bf8 in text section  of Segment No. 1
+	defined in:    vend.o
+	referenced in: mcxdata.o
+_GetPassword PUBLIC   at 0x7d3a in text section  of Segment No. 1
+	defined in:    util.o
+	referenced in: menucode.o
+_bill_enable PUBLIC   at 0x65f6 in text section  of Segment No. 1
+	defined in:    bill.o
+	referenced in: main.o
+_bill_escrow PUBLIC   at 0x64d7 in text section  of Segment No. 1
+	defined in:    bill.o
+_coin_enable PUBLIC   at 0x5a7a in text section  of Segment No. 1
+	defined in:    coin.o
+	referenced in: main.o
+_dex_connect PUBLIC   at 0x7460 in text section  of Segment No. 1
+	defined in:    dex.o
+_disp_printf PUBLIC   at 0x501e in text section  of Segment No. 1
+	defined in:    display.o
+	referenced in: menucode.o util.o dex.o
+	              mis.o main.o
+_disp_scroll PUBLIC   at 0x7883 in text section  of Segment No. 1
+	defined in:    util.o
+_eeprom_init PUBLIC   at 0x4002 in text section  of Segment No. 1
+	defined in:    eeprom.o
+	referenced in: main.o
+_flash_exact PUBLIC   at 0x41b1 in text section  of Segment No. 1
+	defined in:    main.o
+_fnResetErrs PUBLIC   at 0x9127 in text section  of Segment No. 1
+	defined in:    menucode.o
+	referenced in: menudef.o
+_gAllSoldOut PUBLIC   at 0x0269 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: dex.o main.o
+_gMeterPulse PUBLIC   at 0x0312 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: vend.o isrs.o
+_gROtimerOff PUBLIC   at 0x025c in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: dev.o
+_gReturnTime PUBLIC   at 0x0266 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: vend.o dev.o main.o
+_gWaterCount PUBLIC   at 0x0319 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: menucode.o vend.o
+_key_timeout PUBLIC   at 0x492e in text section  of Segment No. 1
+	defined in:    keypad.o
+	referenced in: menucode.o util.o mis.o
+	              main.o
+_mcx_dequeue PUBLIC   at 0xf582 in text section  of Segment No. 2
+	defined in:    mcxc.o
+_mcx_enqueue PUBLIC   at 0xf591 in text section  of Segment No. 2
+	defined in:    mcxc.o
+_mdb_sendmsg PUBLIC   at 0x53f4 in text section  of Segment No. 1
+	defined in:    mdb.o
+	referenced in: menucode.o bill.o coin.o
+_menu_errors PUBLIC   at 0x8f75 in text section  of Segment No. 1
+	defined in:    menudef.o
+_menu_master PUBLIC   at 0x8fc5 in text section  of Segment No. 1
+	defined in:    menudef.o
+	referenced in: main.o
+_new_version PUBLIC   at 0x2006 in bss  section  of Segment No. 8
+	defined in:    crtsi.o
+	referenced in: main.o
+_rsrc_unlock PUBLIC   at 0x776e in text section  of Segment No. 1
+	defined in:    rsrc.o
+	referenced in: menucode.o dbug.o dex.o
+	              bill.o coin.o mdb.o
+_task_keypad PUBLIC   at 0x4b23 in text section  of Segment No. 1
+	defined in:    keypad.o
+	referenced in: mcxdata.o
+_vendproduct PUBLIC   at 0x84d9 in text section  of Segment No. 1
+	defined in:    vend.o
+	referenced in: main.o
+_bill_disable PUBLIC   at 0x6787 in text section  of Segment No. 1
+	defined in:    bill.o
+	referenced in: dex.o coin.o main.o
+_bill_release PUBLIC   at 0x67ca in text section  of Segment No. 1
+	defined in:    bill.o
+	referenced in: main.o
+_coin_deposit PUBLIC   at 0x586f in text section  of Segment No. 1
+	defined in:    coin.o
+_coin_disable PUBLIC   at 0x5c0d in text section  of Segment No. 1
+	defined in:    coin.o
+	referenced in: menucode.o dex.o main.o
+_coin_release PUBLIC   at 0x5efa in text section  of Segment No. 1
+	defined in:    coin.o
+	referenced in: main.o
+_fn_mis_reset PUBLIC   at 0x9107 in text section  of Segment No. 1
+	defined in:    menucode.o
+	referenced in: menudef.o
+_gGalSolCount PUBLIC   at 0x0317 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: vend.o isrs.o
+_gGallonCount PUBLIC   at 0x0253 in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: vend.o dev.o
+_gROpostTimer PUBLIC   at 0x025e in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: vend.o dev.o
+_gServiceMode PUBLIC   at 0x0287 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: vend.o dev.o coin.o
+	              keypad.o main.o
+_menu_options PUBLIC   at 0x8dbf in text section  of Segment No. 1
+	defined in:    menudef.o
+_menu_setpour PUBLIC   at 0x8e77 in text section  of Segment No. 1
+	defined in:    menudef.o
+_mis_disp_num PUBLIC   at 0x469b in text section  of Segment No. 1
+	defined in:    mis.o
+_sci_dex_mode PUBLIC   at 0x7873 in text section  of Segment No. 1
+	defined in:    util.o
+	referenced in: dex.o
+_sci_mdb_mode PUBLIC   at 0x786a in text section  of Segment No. 1
+	defined in:    util.o
+	referenced in: dbug.o dex.o main.o
+_task_display PUBLIC   at 0x4e49 in text section  of Segment No. 1
+	defined in:    display.o
+	referenced in: mcxdata.o
+_task_initmdb PUBLIC   at 0x551e in text section  of Segment No. 1
+	defined in:    mdb.o
+	referenced in: mcxdata.o
+_task_pollmdb PUBLIC   at 0x554b in text section  of Segment No. 1
+	defined in:    mdb.o
+	referenced in: mcxdata.o
+_ShutterStatus PUBLIC   at 0x6801 in text section  of Segment No. 1
+	defined in:    dex.o
+_bill_accepted PUBLIC   at 0x6405 in text section  of Segment No. 1
+	defined in:    bill.o
+_bill_attempts PUBLIC   at 0x656c in text section  of Segment No. 1
+	defined in:    bill.o
+_coin_dispense PUBLIC   at 0x579e in text section  of Segment No. 1
+	defined in:    coin.o
+_debounce_init PUBLIC   at 0x778a in text section  of Segment No. 1
+	defined in:    util.o
+	referenced in: vend.o dev.o keypad.o
+	              main.o
+_dex_mis_clear PUBLIC   at 0x4849 in text section  of Segment No. 1
+	defined in:    mis.o
+	referenced in: dex.o
+_flash_soldout PUBLIC   at 0x4162 in text section  of Segment No. 1
+	defined in:    main.o
+	referenced in: vend.o
+_gBackFlushInt PUBLIC   at 0x0052 in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: menudef.o vend.o
+_gNoPulseTimer PUBLIC   at 0x0263 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: vend.o dev.o
+_gPourTimerMax PUBLIC   at 0x0040 in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: menudef.o vend.o
+_gReturnChange PUBLIC   at 0x0268 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: vend.o bill.o coin.o
+	              main.o
+_gWaterCounter PUBLIC   at 0x024d in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: menucode.o vend.o
+_mcx_sema_pend PUBLIC   at 0xf5a3 in text section  of Segment No. 2
+	defined in:    mcxc.o
+	referenced in: display.o keypad.o
+_mcx_sema_wait PUBLIC   at 0xf5a6 in text section  of Segment No. 2
+	defined in:    mcxc.o
+	referenced in: dev.o display.o keypad.o
+_mdb_bill_init PUBLIC   at 0x639a in text section  of Segment No. 1
+	defined in:    bill.o
+_menu_setprice PUBLIC   at 0x8e27 in text section  of Segment No. 1
+	defined in:    menudef.o
+_mis_disp_acct PUBLIC   at 0x47d1 in text section  of Segment No. 1
+	defined in:    mis.o
+_task_periodic PUBLIC   at 0x7fc2 in text section  of Segment No. 1
+	defined in:    dev.o
+	referenced in: mcxdata.o
+_bill_poll_init PUBLIC   at 0x63a7 in text section  of Segment No. 1
+	defined in:    bill.o
+	referenced in: mdb.o
+_coin_poll_init PUBLIC   at 0x557c in text section  of Segment No. 1
+	defined in:    coin.o
+	referenced in: mdb.o
+_debounce2_init PUBLIC   at 0x77ee in text section  of Segment No. 1
+	defined in:    util.o
+	referenced in: keypad.o
+_dex_disconnect PUBLIC   at 0x7437 in text section  of Segment No. 1
+	defined in:    dex.o
+	referenced in: main.o
+_dex_resume_all PUBLIC   at 0x73a8 in text section  of Segment No. 1
+	defined in:    dex.o
+_gBackFlushTime PUBLIC   at 0x0058 in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: menudef.o vend.o
+_gBill_accepted PUBLIC   at 0x027b in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: bill.o coin.o
+_gSlaveGalCount PUBLIC   at 0x0314 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: dev.o isrs.o
+_gVendFailTimer PUBLIC   at 0x030e in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: vend.o dev.o main.o
+_getmaxminprice PUBLIC   at 0x4161 in text section  of Segment No. 1
+	defined in:    main.o
+_mcx_task_delay PUBLIC   at 0xf54e in text section  of Segment No. 2
+	defined in:    mcxc.o
+	referenced in: menucode.o vend.o dbug.o
+	              util.o rsrc.o dex.o
+	              coin.o mdb.o display.o
+	              keypad.o mis.o main.o
+_mis_disp_price PUBLIC   at 0x46f9 in text section  of Segment No. 1
+	defined in:    mis.o
+_dex_session_end PUBLIC   at 0x7450 in text section  of Segment No. 1
+	defined in:    dex.o
+_dex_suspend_all PUBLIC   at 0x738f in text section  of Segment No. 1
+	defined in:    dex.o
+_gServiceTimeout PUBLIC   at 0x0284 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: menucode.o dev.o keypad.o
+_gVendTaskActive PUBLIC   at 0x0315 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: menucode.o vend.o dev.o
+	              main.o
+_mcx_sema_signal PUBLIC   at 0xf5a0 in text section  of Segment No. 2
+	defined in:    mcxc.o
+	referenced in: dev.o mdb.o display.o
+	              keypad.o
+_mcx_task_resume PUBLIC   at 0xf57a in text section  of Segment No. 2
+	defined in:    mcxc.o
+	referenced in: dex.o
+_mcx_timer_purge PUBLIC   at 0xf5e6 in text section  of Segment No. 2
+	defined in:    mcxc.o
+	referenced in: display.o keypad.o
+_mcx_timer_start PUBLIC   at 0xf560 in text section  of Segment No. 2
+	defined in:    mcxc.o
+	referenced in: dev.o display.o keypad.o
+_coin_tube_change PUBLIC   at 0x6293 in text section  of Segment No. 1
+	defined in:    coin.o
+_key_timeout_beep PUBLIC   at 0x4965 in text section  of Segment No. 1
+	defined in:    keypad.o
+	referenced in: menucode.o mis.o
+_mcx_mailbox_send PUBLIC   at 0xf5a9 in text section  of Segment No. 2
+	defined in:    mcxc.o
+	referenced in: vend.o dev.o display.o
+	              keypad.o
+_mcx_task_execute PUBLIC   at 0xf572 in text section  of Segment No. 2
+	defined in:    mcxc.o
+	referenced in: main.o
+_mcx_task_suspend PUBLIC   at 0xf576 in text section  of Segment No. 2
+	defined in:    mcxc.o
+	referenced in: dex.o
+_task_maintenance PUBLIC   at 0x8c03 in text section  of Segment No. 1
+	defined in:    vend.o
+	referenced in: mcxdata.o
+_coin_change_exact PUBLIC   at 0x5c6c in text section  of Segment No. 1
+	defined in:    coin.o
+	referenced in: main.o
+_dex_session_begin PUBLIC   at 0x7493 in text section  of Segment No. 1
+	defined in:    dex.o
+_mcx_mailbox_sendw PUBLIC   at 0xf5bd in text section  of Segment No. 2
+	defined in:    mcxc.o
+	referenced in: mdb.o
+_mis_clear_request PUBLIC   at 0x48e7 in text section  of Segment No. 1
+	defined in:    mis.o
+_gPasswordValidated PUBLIC   at 0x0262 in data section  of Segment No. 7
+	defined in:    globals.o
+	referenced in: util.o main.o
+_mcx_task_terminate PUBLIC   at 0xf57e in text section  of Segment No. 2
+	defined in:    mcxc.o
+_coin_change_noexact PUBLIC   at 0x5e2d in text section  of Segment No. 1
+	defined in:    coin.o
+_coin_enable_service PUBLIC   at 0x5a3a in text section  of Segment No. 1
+	defined in:    coin.o
+	referenced in: menucode.o
+_mcx_mailbox_receive PUBLIC   at 0xf5d1 in text section  of Segment No. 2
+	defined in:    mcxc.o
+	referenced in: dev.o mdb.o
+_gShakeTimeInHalfSecIntervals PUBLIC   at 0x004c in data section  of Segment No. 6
+	defined in:    bram.o
+	referenced in: menudef.o vend.o

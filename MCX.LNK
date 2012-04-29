@@ -1,0 +1,68 @@
+#
+# Build File:   MCX.LNK
+#
+# Project:      Entre-Pure
+#
+#
++map=mcx.map                    # Map File
++h                              # multi-segment output
+-o xeq.h11                      # output file name
+#
+#
++text  -b0x4000   -a13          # program start address (INIT for data table)
++bss   -b0x2000                 # bss start address
+version.o                       # version number
+#
+#
++data  -b0xB600  -n EEPROM      #
+eeprom.o                        # EEPROM data
+#
+#
++data  -b0x0040  -n BATTERY     #
+bram.o                          # Battery backed RAM
+#
+#
++data            -n data        #
+globals.o                       # Global area
+crtsi.o                         # C startup routine
+main.o                          # Main (Application Specific)
+mis.o                           # MIS routines
+keypad.o                        # Keypad driver
+display.o                       # Display driver
+sci.o                           # SCI routines
+mdb.o                           # MDB routines
+coin.o                          # MDB coin routines
+bill.o                          # MDB bill routines
+dex.o                           # DEX routines
+rsrc.o                          # Resource managing routines
+util.o                          # General Utility routines
+isrs.o                          # Other ISRs
+dbug.o                          # stack watcher
+dev.o                           # Device control routines
+vend.o                          # Vending control
+menudef.o                       # Menu definitions
+menucode.o                      # Menu code
+c:\c\lib\libi.h11               # C library
+c:\c\lib\libm.h11               # C library
+#
+#
++def __pdata=__text__           # Put initialized data constants here
+#
+#
++text  -b0xF000   -a5           # MCX ORG (mark as NO INIT)
+mcxdata.o                       # MCX data and tables
+mcxinit.o                       # MCX OS Initializer
+mcx.o                           # MCX OS Services
+mcxclock.o                      # MCX Clock Driver
+mcxc.o                          # MCX C Interface to OS Services
+#
+#
++text  -b0xE000   -a5           # MCX ORG (mark as NO INIT)
+mcxnull.o                       # MCX null task
+#
+#
++text  -b0xffd6   -a5           # Vector Table Start Address (mark as NO INIT)
+vector.o
+#
+#
++def __memory=__bss__           # Symbol used by C library
